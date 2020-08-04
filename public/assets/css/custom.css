@@ -1,0 +1,157 @@
+/* Page custom css. Not a part of the standards */
+
+.jd .middle-cont {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.jd .pad-left {
+    padding-left: 1em;
+}
+
+.jd .pad-right {
+    padding-right: 1em;
+}
+
+.jd .pad-bottom {
+    padding-bottom: 1em;
+}
+
+.jd .steps-aware-accordion>.steps-aware-title {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+}
+
+.jd .steps-aware-accordion>.steps-aware-body {
+	background-color: #fff;
+	padding: 15px 10px
+}
+
+
+.jd .steps-aware-accordion>.steps-aware-title {
+    box-sizing: border-box;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 15px 10px 35px;
+    background-image: url(/assets/img/accordian.open.small.active.png);
+    background-repeat: no-repeat;
+    background-position: 10px 11px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select: none
+}
+
+.jd .steps-aware-accordion.closed>.steps-aware-title {
+    background-image: url(/assets/img/accordian.closed.small.active.png);
+    background-position: 10px 9px;
+    background-color: #ddd
+}
+
+.jd .steps-aware-accordion.closed>.steps-aware-body {
+	display: none
+}
+
+.jd .spacing-div {
+    height: 20px;
+}
+.jd .header-padding {
+    padding-top: 30px;
+}
+
+.jd .layout-showoff {
+    padding-top: 0px;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.jd .layout-showoff > div {
+    padding: 5px;
+    border: 1px solid black;
+    background: #e6f5e4;
+    color: #367c2b;
+    text-align: center;
+}
+.jd .layout-showoff.last {
+    margin-bottom: 20px;
+}
+
+
+.jd .page-show{
+    background: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.jd .page-show.white{
+    background: #ffffff;
+    border: 1px solid black;
+}
+
+.jd .page-show.no-pad.top{
+    padding-top:0px;
+}
+
+.jd .page-show.no-pad{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.jd .page-show.no-pad.bottom{
+    padding-bottom: 0px;
+}
+
+.jd .page-show .wrapper-container {
+    min-width: 200px !important;
+}
+.jd .page-show .header {
+    min-width: inherit;
+}
+/* .page-show.page-show-header {
+    overflow: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}*/
+
+.jd .page-show .nav-top {
+    min-width: 700px !important;
+}
+.jd .fixed-nav{
+/*    position: fixed;
+    width: 9.5% !important; */
+}
+.jd a {
+    cursor: pointer;
+}
+
+.jd img {
+    width: 100%;
+    border: 1px solid black;
+}
+.jd .nav-top button img {
+    width: auto;
+    border: none;
+}
+
+.jd .keep-right {
+    float: right !important;
+}
+.jd pre.prettyprint{font-size:13px !important;padding:2px;border:1px solid #888} /*Fix for .jd qualifier on CDN'd css.*/
+
+.jd .demo-block { height: 20px !important; }
+
+.jd .demo-block.dark { background: #367c2b; }
+.black-yellow .demo-block.dark { background: #000000; }
+.jd .demo-block.yellow { background: #ffde00; }
+.jd .demo .red { background: #bd2e28; }
+.jd .demo-block.red { background: #bd2e28; }
+
+.jd .conditional { display: none; }
+.black-yellow .conditional { display: block; }
+

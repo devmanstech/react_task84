@@ -1,0 +1,5100 @@
+/*!  Copyright (c) 2016 Deere & Company. All Rights Reserved */
+.jd #fixed-panel, .jd #fixed-spacer, html.jd.jd-js-enabled {
+    visibility: hidden
+}
+
+.jd .input-box .input-label, .jd .tabs, .jd input ~ label ~ div {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
+}
+
+.jd ol, .jd ul, .jd ul.breadcrumb {
+    list-style: none
+}
+
+.jd body, html.jd {
+    height: 100%;
+    margin: 0
+}
+
+html.jd.jd-js-enabled.jd-loaded {
+    visibility: visible
+}
+
+@media screen\0 {
+    .nav-top ul li.search input[type=text], .navTop ul li.search-sub-menu input[type=text] {
+        line-height: 28px
+    }
+}
+
+@media \0screen\,screen\9 {
+    [type=checkbox] + label, td [type=checkbox] + label, th [type=checkbox] + label {
+        display: none
+    }
+
+    [type=checkbox] + label {
+        top: 3px;
+        right: -3px
+    }
+
+    [type=checkbox], td [type=checkbox], th [type=checkbox] {
+        position: relative
+    }
+
+    .nav-top ul li.has-sub-menu:hover ul {
+        -ms-filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=0), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=180), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=270);
+        filter: progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=0), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=180), progid:DXImageTransform.Microsoft.Shadow(Color=#f1f1f1, Strength=10, Direction=270);
+        top: 26px;
+        left: 4px;
+        zoom: 1
+    }
+
+    .nav-top ul li.has-sub-menu:hover > a {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Color='#f1f1f1', Strength=10, Direction=90)", "progid:DXImageTransform.Microsoft.Shadow(Color='#f1f1f1', Strength=10, Direction=270)";
+        filter: progid:DXImageTransform.Microsoft.Shadow(Color='#f1f1f1', Strength=10, Direction=90), progid:DXImageTransform.Microsoft.Shadow(Color='#f1f1f1', Strength=10, Direction=270);
+        left: -10px;
+        zoom: 1
+    }
+
+    .nav-top ul li.search input[type=text] {
+        line-height: 28px
+    }
+
+    .navTop ul li.search-sub-menu.clicked > span {
+        border-left: 1px solid #e3e3e3;
+        border-right: 1px solid #e3e3e3;
+        height: 36px;
+        zoom: 1
+    }
+
+    .navTop ul li.search-sub-menu.clicked ul {
+        top: 36px;
+        filter: none;
+        -ms-filter: none;
+        border: 1px solid #e3e3e3;
+        zoom: 1
+    }
+
+    .navTop ul li.search-sub-menu input[type=text] {
+        line-height: 28px
+    }
+
+    button {
+        background-image: -moz-linear-gradient(top, #f7f7f7 0, #f1f1f1 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f7f7f7), color-stop(100%, #f1f1f1));
+        background-image: -webkit-linear-gradient(top, #f7f7f7 0, #f1f1f1 100%);
+        background-image: -o-linear-gradient(top, #f7f7f7 0, #f1f1f1 100%);
+        background-image: -ms-linear-gradient(top, #f7f7f7 0, #f1f1f1 100%);
+        background-image: linear-gradient(to bottom, #f7f7f7 0, #f1f1f1 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#f1f1f1', GradientType=0)
+    }
+
+    button:hover {
+        background-image: -moz-linear-gradient(top, #fff 0, #f7f7f7 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #f7f7f7));
+        background-image: -webkit-linear-gradient(top, #fff 0, #f7f7f7 100%);
+        background-image: -o-linear-gradient(top, #fff 0, #f7f7f7 100%);
+        background-image: -ms-linear-gradient(top, #fff 0, #f7f7f7 100%);
+        background-image: linear-gradient(to bottom, #fff 0, #f7f7f7 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0)
+    }
+
+    button.call-to-action {
+        background-image: -moz-linear-gradient(top, #fff137 0, #ffd621 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff137), color-stop(100%, #ffd621));
+        background-image: -webkit-linear-gradient(top, #fff137 0, #ffd621 100%);
+        background-image: -o-linear-gradient(top, #fff137 0, #ffd621 100%);
+        background-image: -ms-linear-gradient(top, #fff137 0, #ffd621 100%);
+        background-image: linear-gradient(to bottom, #fff137 0, #ffd621 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff137', endColorstr='#ffd621', GradientType=0)
+    }
+
+    button.call-to-action:hover {
+        background-image: -moz-linear-gradient(top, #ff0 0, #ffd621 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ff0), color-stop(100%, #ffd621));
+        background-image: -webkit-linear-gradient(top, #ff0 0, #ffd621 100%);
+        background-image: -o-linear-gradient(top, #ff0 0, #ffd621 100%);
+        background-image: -ms-linear-gradient(top, #ff0 0, #ffd621 100%);
+        background-image: linear-gradient(to bottom, #ff0 0, #ffd621 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff00', endColorstr='#ffd621', GradientType=0)
+    }
+
+    .jd .dropdown-container .dropdownmenu ul {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c0c0c0')";
+        filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='#c0c0c0');
+        border: 20px solid #00f
+    }
+}
+
+.jd a, .jd abbr, .jd acronym, .jd address, .jd applet, .jd article, .jd aside, .jd audio, .jd b, .jd big, .jd blockquote, .jd body, .jd canvas, .jd caption, .jd center, .jd cite, .jd code, .jd dd, .jd details, .jd dfn, .jd div, .jd dl, .jd dt, .jd em, .jd embed, .jd fieldset, .jd figcaption, .jd figure, .jd footer, .jd form, .jd h1, .jd h2, .jd h3, .jd h4, .jd h5, .jd h6, .jd header, .jd hgroup, .jd html, .jd html.jd, .jd i, .jd iframe, .jd img, .jd ins, .jd kbd, .jd label, .jd legend, .jd li, .jd mark, .jd menu, .jd nav, .jd object, .jd ol, .jd output, .jd p, .jd pre, .jd q, .jd ruby, .jd samp, .jd section, .jd small, .jd span, .jd strike, .jd strong, .jd summary, .jd table, .jd tbody, .jd td, .jd tfoot, .jd th, .jd thead, .jd time, .jd tr, .jd tt, .jd u, .jd ul, .jd var, .jd video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: baseline
+}
+
+.jd article, .jd aside, .jd details, .jd figcaption, .jd figure, .jd footer, .jd header, .jd hgroup, .jd menu, .jd nav, .jd section {
+    display: block
+}
+
+.jd body {
+    line-height: 1;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #f1f1f1
+}
+
+.jd .h1, .jd .h1 a, .jd .link-color-mixin a, .jd h1, .jd h1 a {
+    color: #367c2b
+}
+
+.jd blockquote, .jd q {
+    quotes: none
+}
+
+.jd blockquote:after, .jd blockquote:before, .jd q:after, .jd q:before {
+    content: '';
+    content: none
+}
+
+.jd table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+@font-face {
+    font-family: "JohnDeereSans.Medium";
+    src: url(../font/JohnDeereSans.Medium.eot);
+    src: url(../font/JohnDeereSans.Medium.eot?#iefix) format('embedded-opentype'), url(../font/JohnDeereSans.Medium.woff) format('woff'), url(../font/JohnDeereSans.Medium.svg#webfont) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+.jd a, .jd a:active, .jd a:link, .jd a:visited {
+    color: #367c2b;
+    text-decoration: none
+}
+
+.jd a:active, .jd a:hover {
+    text-decoration: underline
+}
+
+.jd .h1:active, .jd .h1:hover, .jd .header h1 a, .jd .header h1 a:hover, .jd h1:active, .jd h1:hover {
+    text-decoration: none
+}
+
+.jd .h1, .jd .h2, .jd h1, .jd h2 {
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .count-panel > .count, .jd .count-panel > .text > .main-title, .jd .h3, .jd .h4, .jd .h5, .jd .h6, .jd .header .user-info, .jd .icon-panel, .jd .input-box .input-label, .jd h3, .jd h4, .jd h5, .jd h6, .jd.count-panel > .count, .jd.count-panel > .text > .main-title, .jd.icon-panel {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .h1, .jd h1 {
+    font-size: 34px;
+    margin-bottom: 12px
+}
+
+.jd .h2, .jd h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+    color: #454545
+}
+
+.jd .h2 a, .jd h2 a {
+    color: #367c2b
+}
+
+.jd .h3, .jd h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #454545
+}
+
+.jd .h3 a, .jd h3 a {
+    color: #367c2b
+}
+
+.jd .h4, .jd h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #454545
+}
+
+.jd .h4 a, .jd h4 a {
+    color: #367c2b
+}
+
+.jd .h5, .jd h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #454545
+}
+
+.jd .h5 a, .jd h5 a {
+    color: #367c2b
+}
+
+.jd .h6, .jd h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #454545
+}
+
+.jd .h6 a, .jd h6 a {
+    color: #367c2b
+}
+
+.jd p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px
+}
+
+.jd p.last, .jd p:last-child {
+    margin-bottom: 0
+}
+
+.jd .wide-paragraph p {
+    margin-bottom: 20px
+}
+
+.jd .wide-paragraph p.last, .jd .wide-paragraph p:last-child {
+    margin-bottom: 0
+}
+
+.jd .description-pair {
+    display: table;
+    width: 100%;
+    height: 100%
+}
+
+.jd .description-pair > .left-content {
+    display: table-cell;
+    color: #888;
+    white-space: nowrap
+}
+
+.jd .description-pair > .right-content {
+    display: table-cell;
+    padding-left: 5px;
+    width: 100%
+}
+
+.jd i {
+    font-style: italic
+}
+
+.jd b {
+    font-weight: 700
+}
+
+.jd .secondary-info {
+    color: #999
+}
+
+.jd .small-text {
+    color: #333;
+    font-size: 12px
+}
+
+.jd .alert-info {
+    color: #bd2e28
+}
+
+.jd .group:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.jd .text-seperator:before {
+    content: "|";
+    color: #999;
+    padding: 0 8px
+}
+
+.jd .row .even-row .colcont:after, .jd .row:after {
+    content: "";
+    clear: both
+}
+
+.jd div.container, .jd div.wrapper-container, .jd div.wrapperContainer {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1160px;
+    min-width: 920px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+.jd .narrow-app div.container, .jd .narrow-app div.wrapper-container, .jd .narrow-app div.wrapperContainer {
+    max-width: 850px;
+    min-width: 750px
+}
+
+.jd img.fill {
+    width: 100%;
+    display: block
+}
+
+.jd .hidden {
+    display: none
+}
+
+.jd .clear-right, .jd .layout-right {
+    padding-right: 0 !important;
+    margin-right: 0 !important
+}
+
+.jd .col-1, .jd .col-1-1, .jd .col-1-12, .jd .col-1-2, .jd .col-1-3, .jd .col-1-4, .jd .col-1-5, .jd .col-1-6, .jd .col-2-3, .jd .col-3-4, .jd .col-3-5, .jd .col-4-5, .jd .col-5-12, .jd .col-5-6, .jd .col-7-12 {
+    height: 100%;
+    padding-right: 10px
+}
+
+.jd .clear-right-margin, .jd .layout-right-margin {
+    margin-right: 0 !important
+}
+
+.jd .clear-bottom, .jd .layout-bottom {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important
+}
+
+.jd .clear-bottom-margin, .jd .clear-panel, .jd .layout-bottom-margin {
+    margin-bottom: 0 !important
+}
+
+.jd .right-align {
+    float: right
+}
+
+.jd .left-align {
+    float: left
+}
+
+.jd .row-reset {
+    clear: both
+}
+
+.jd .layout-inline {
+    display: table;
+    width: 100%
+}
+
+.jd .layout-inline.panel-spacing {
+    padding-bottom: 20px
+}
+
+.jd .layout-inline.panel-spacing .layout-inline-item {
+    padding-left: 20px
+}
+
+.jd .layout-inline.panel-spacing .layout-inline-item:first-child {
+    padding-left: 0
+}
+
+.jd .layout-inline.bottom-align * {
+    vertical-align: baseline
+}
+
+.jd .layout-inline-item {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 10px
+}
+
+.jd .layout-inline-item:first-child {
+    padding-left: 0
+}
+
+.jd .col-1, .jd .col-1-1, .jd .col-1-12, .jd .col-1-2, .jd .col-1-3, .jd .col-1-4, .jd .col-1-5, .jd .col-1-6, .jd .col-2-3, .jd .col-3-4, .jd .col-3-5, .jd .col-4-5, .jd .col-5-12, .jd .col-5-6, .jd .col-7-12, .jd input[type=password], .jd input[type=search], .jd input[type=number], .jd input[type=text], .jd select, .jd textarea {
+    padding-left: 10px;
+    box-sizing: border-box
+}
+
+.jd .layout-inline-item .input-box {
+    margin-bottom: 0
+}
+
+.jd .layout-inline-item.fill {
+    width: 100%
+}
+
+.jd .layout-inline-item.top-align {
+    vertical-align: top
+}
+
+.jd .layout-center {
+    margin: 0 auto !important;
+    float: none !important
+}
+
+.jd .input-box, .jd .row.add-space {
+    margin-bottom: 20px
+}
+
+.jd .text-center {
+    text-align: center
+}
+
+.jd .text-left {
+    text-align: left
+}
+
+.jd .text-right {
+    text-align: right
+}
+
+.jd .row {
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.jd .row:after {
+    display: table
+}
+
+.jd .row .even-row {
+    display: table;
+    height: 100%;
+    width: 100%
+}
+
+.jd .row .even-row div[class^=col-] {
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 0;
+    float: initial
+}
+
+.jd .row .even-row .colcont {
+    height: 100%;
+    position: relative
+}
+
+.jd .row .even-row .colcont:after {
+    display: table
+}
+
+.jd input[type=password] + .input-label, .jd input[type=password].focus + .input-label, .jd input[type=password]:focus + .input-label, .jd input[type=search] + .input-label, .jd input[type=search].focus + .input-label, .jd input[type=search]:focus + .input-label, .jd input[type=number] + .input-label, .jd input[type=number].focus + .input-label, .jd input[type=number]:focus + .input-label, .jd input[type=text] + .input-label, .jd input[type=text].focus + .input-label, .jd input[type=text]:focus + .input-label, .jd select + .input-label, .jd select.focus + .input-label, .jd select:focus + .input-label, .jd textarea + .input-label, .jd textarea.focus + .input-label, .jd textarea:focus + .input-label {
+    display: none
+}
+
+.jd .row .even-row .colcont .panel {
+    position: absolute;
+    top: 0;
+    bottom: 0
+}
+
+.jd .col-1, .jd .col-1-1 {
+    width: 100%;
+    float: left
+}
+
+.jd .col-1-2 {
+    width: 50%;
+    float: left
+}
+
+.jd .col-1-4 {
+    width: 25%;
+    float: left
+}
+
+.jd .col-3-4 {
+    width: 75%;
+    float: left
+}
+
+.jd .col-1-3 {
+    width: 33.33333%;
+    float: left
+}
+
+.jd .col-2-3 {
+    width: 66.66666%;
+    float: left
+}
+
+.jd .col-1-5 {
+    width: 20%;
+    float: left
+}
+
+.jd .col-2-5 {
+    width: 40%;
+    float: left;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box
+}
+
+.jd .col-3-5 {
+    width: 60%;
+    float: left
+}
+
+.jd .col-4-5 {
+    width: 80%;
+    float: left
+}
+
+.jd .col-1-6 {
+    width: 16.66666667%;
+    float: left
+}
+
+.jd .col-5-6 {
+    width: 83.33333333%;
+    float: left
+}
+
+.jd .col-1-12 {
+    width: 8.333333%;
+    float: left
+}
+
+.jd .col-5-12 {
+    width: 41.666666%;
+    float: left
+}
+
+.jd .col-7-12 {
+    width: 58.333333%;
+    float: left
+}
+
+.jd input[type=password], .jd input[type=search], .jd input[type=number], .jd input[type=text], .jd select, .jd textarea {
+    outline: 0;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff
+}
+
+.jd input[type=password].focus, .jd input[type=password]:focus, .jd input[type=search].focus, .jd input[type=search]:focus, .jd input[type=number].focus, .jd input[type=number]:focus, .jd input[type=text].focus, .jd input[type=text]:focus, .jd select.focus, .jd select:focus, .jd textarea.focus, .jd textarea:focus {
+    border-color: #367c2b
+}
+
+.jd input[type=password].focus ~ .submit, .jd input[type=password]:focus ~ .submit, .jd input[type=search].focus ~ .submit, .jd input[type=search]:focus ~ .submit, .jd input[type=number].focus ~ .submit, .jd input[type=number]:focus ~ .submit, .jd input[type=text].focus ~ .submit, .jd input[type=text]:focus ~ .submit, .jd select.focus ~ .submit, .jd select:focus ~ .submit, .jd textarea.focus ~ .submit, .jd textarea:focus ~ .submit {
+    display: block
+}
+
+.jd input[type=password].thin, .jd input[type=search].thin, .jd input[type=number].thin, .jd input[type=text].thin, .jd select.thin, .jd textarea.thin {
+    height: 26px;
+    line-height: 26px
+}
+
+.jd input[type=password].error, .jd input[type=search].error, .jd input[type=number].error, .jd input[type=text].error, .jd select.error, .jd textarea.error {
+    border-color: #bd2e28
+}
+
+.jd input[type=password]::-ms-clear, .jd input[type=search]::-ms-clear, .jd input[type=number]::-ms-clear, .jd input[type=text]::-ms-clear, .jd select::-ms-clear, .jd textarea::-ms-clear {
+    display: none
+}
+
+.jd input[type=password] ~ .submit, .jd input[type=search] ~ .submit, .jd input[type=number] ~ .submit, .jd input[type=text] ~ .submit, .jd select ~ .submit, .jd textarea ~ .submit {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%
+}
+
+.jd input[type=password] ~ .submit button, .jd input[type=search] ~ .submit button, .jd input[type=number] ~ .submit button, .jd input[type=text] ~ .submit button, .jd select ~ .submit button, .jd textarea ~ .submit button {
+    height: 100%;
+    padding: 0 10px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.jd input[type=password] ~ .submit button:after, .jd input[type=search] ~ .submit button:after, .jd input[type=number] ~ .submit button:after, .jd input[type=text] ~ .submit button:after, .jd select ~ .submit button:after, .jd textarea ~ .submit button:after {
+    display: table;
+    clear: both;
+    padding-top: 3px;
+    content: url(../img/search.small.active.png)
+}
+
+.jd input[type=password].show-label + .input-label, .jd input[type=password].show-label:focus ~ .submit, .jd input[type=number].show-label + .input-label, .jd input[type=number].show-label:focus ~ .submit, .jd input[type=text].show-label + .input-label, .jd input[type=text].show-label:focus ~ .submit {
+    display: block
+}
+
+.jd input[type=password] ~ .submit button::after, .jd input[type=search] ~ .submit button::after, .jd input[type=number] ~ .submit button::after, .jd input[type=text] ~ .submit button::after, .jd select ~ .submit button::after, .jd textarea ~ .submit button::after {
+    padding-top: 3px;
+    content: url(../img/search.small.active.png)
+}
+
+.jd input[type=password]:disabled, .jd input[type=search]:disabled, .jd input[type=number]:disabled, .jd input[type=text]:disabled, .jd select:disabled, .jd textarea:disabled {
+    background-color: #eee
+}
+
+.jd select {
+    padding-left: 10px
+}
+
+.jd select.invis {
+    width: auto;
+    padding: 0;
+    color: #367c2b;
+    border: none;
+    height: 100%
+}
+
+.jd textarea {
+    padding-top: 5px;
+    line-height: normal
+}
+
+.jd input[type=password].show-label, .jd input[type=number].show-label, .jd input[type=text].show-label {
+    background: url(../img/search.small.inactive.png) 10px center no-repeat #fff
+}
+
+.jd input[type=password].show-label.no-search-icon, .jd input[type=number].show-label.no-search-icon, .jd input[type=text].show-label.no-search-icon {
+    background: #fff
+}
+
+.jd input[type=password].show-label.no-search-icon + .input-label, .jd input[type=number].show-label.no-search-icon + .input-label, .jd input[type=text].show-label.no-search-icon + .input-label {
+    left: 11px
+}
+
+.jd input[type=password].show-label ~ .submit, .jd input[type=number].show-label ~ .submit, .jd input[type=text].show-label ~ .submit {
+    display: none
+}
+
+.jd input[type=password].show-label.inline-button + .input-label, .jd input[type=number].show-label.inline-button + .input-label, .jd input[type=text].show-label.inline-button + .input-label {
+    display: block
+}
+
+.jd input[type=password].show-label.inline-button:focus, .jd input[type=number].show-label.inline-button:focus, .jd input[type=text].show-label.inline-button:focus {
+    background-image: none
+}
+
+.jd input[type=password].show-label.inline-button:focus + .input-label, .jd input[type=number].show-label.inline-button:focus + .input-label, .jd input[type=text].show-label.inline-button:focus + .input-label {
+    display: none
+}
+
+.jd .input-box {
+    position: relative
+}
+
+.jd .input-box .input-label {
+    position: absolute;
+    top: 9px;
+    left: 35px;
+    font-size: 14px;
+    color: #aaa;
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.jd .input-box label {
+    font-weight: 700;
+    margin-bottom: 3px;
+    display: inline-block
+}
+
+.jd .input-box label.extra-space {
+    padding-bottom: 5px
+}
+
+.jd .input-box label.error {
+    color: #bd2e28;
+    font-weight: 400;
+    padding: 5px 5px 0 0
+}
+
+.jd .input-box .help-block, .jd .input-box .subtext {
+    margin-bottom: 0;
+    color: #aaa;
+    display: inline-block;
+    font-size: 12px
+}
+
+.jd .input-box .subtext {
+    margin-left: .5ex
+}
+
+.jd .input-box .upload-button {
+    position: relative
+}
+
+.jd .input-box.filter input {
+    border-radius: 25px
+}
+
+.jd .input-box.disabled > label {
+    color: #bbb
+}
+
+.jd select:disabled {
+    color: #bbb;
+    background-color: #eee;
+    background-image: url(../img/chevron.down.gray.xs.active.png)
+}
+
+.jd input[type=checkbox]:disabled {
+    cursor: default
+}
+
+.jd input[type=checkbox]:disabled + label {
+    background: #eee
+}
+
+.jd input[type=checkbox]:disabled + label + div.check-label {
+    color: #bbb;
+    cursor: default
+}
+
+.jd input[type=checkbox]:disabled:hover + label {
+    border-color: #aaa
+}
+
+.jd input[type=checkbox]:disabled:checked + label {
+    background-image: url(../img/checkbox.inactive.png)
+}
+
+.jd input[type=radio]:disabled {
+    cursor: default
+}
+
+.jd input[type=radio]:disabled:hover + label {
+    box-shadow: 0 0 0 1px #aaa
+}
+
+.jd input[type=radio]:disabled:checked + label {
+    background-color: #bbb;
+    cursor: default
+}
+
+.jd input[type=radio]:disabled:checked:hover + label {
+    box-shadow: 0 0 0 1px #888
+}
+
+.jd input[type=radio]:disabled + label {
+    background-color: #eee;
+    border-color: #eee;
+    cursor: default
+}
+
+.jd input[type=radio]:disabled + label + div {
+    color: #bbb;
+    cursor: default
+}
+
+.jd input[type=file] {
+    position: fixed;
+    top: -1000px
+}
+
+.jd .upload-label {
+    width: 100%
+}
+
+.jd .upload-label .upload-name {
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 5px;
+    word-break: break-all
+}
+
+.jd input[type=checkbox] {
+    opacity: 0;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    cursor: pointer;
+    margin: auto;
+    z-index: 100
+}
+
+.jd input[type=checkbox] + label {
+    margin: 0;
+    clear: none;
+    border: 1px solid #aaa;
+    background: #f7f7f7;
+    background: -moz-linear-gradient(-45deg, #f7f7f7 0, #fff 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f7f7f7), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(-45deg, #f7f7f7 0, #fff 100%);
+    background: -o-linear-gradient(-45deg, #f7f7f7 0, #fff 100%);
+    background: -ms-linear-gradient(-45deg, #f7f7f7 0, #fff 100%);
+    background: linear-gradient(135deg, #f7f7f7 0, #fff 100%);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 99
+}
+
+.jd input[type=checkbox] + label + div.check-label {
+    display: inline;
+    margin-left: 6px;
+    vertical-align: 5px
+}
+
+.jd input[type=checkbox] + label:hover, .jd input[type=checkbox]:hover + label {
+    border-color: #367c2b
+}
+
+.jd input[type=checkbox]:checked + label {
+    background-image: url(../img/checkbox.active.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-color: transparent
+}
+
+.jd input[type=checkbox]:checked + label:after {
+    font-size: 12px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color: #FFF
+}
+
+.jd input[type=checkbox] + label:active, .jd input[type=checkbox]:checked + label:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .05), inset 0 1px 3px rgba(0, 0, 0, .1)
+}
+
+.jd input[type=radio] {
+    opacity: 0;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    cursor: pointer;
+    margin: auto;
+    z-index: 100;
+    vertical-align: bottom
+}
+
+.jd input[type=radio] + label {
+    margin: 0;
+    clear: none;
+    background-color: #FFF;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 1px #aaa;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 99;
+    width: 0
+}
+
+.jd ol, .jd ul {
+    margin-bottom: 20px
+}
+
+.jd input[type=radio] + label + div {
+    vertical-align: super;
+    margin-right: 2px;
+    display: inline-block;
+    margin-left: 6px
+}
+
+.jd input[type=radio]:hover + label {
+    box-shadow: 0 0 0 1px #367c2b
+}
+
+.jd input[type=radio]:checked + label {
+    background-color: #367c2b;
+    color: #99a1a7;
+    box-shadow: 0 0 0 1px #888
+}
+
+.jd input[type=radio]:checked + label:after {
+    font-size: 12px;
+    position: absolute;
+    top: 1px;
+    left: 4px;
+    color: #FFF
+}
+
+.jd div.req, .jd span.req {
+    color: #bd2e28
+}
+
+.jd div.req:before, .jd span.req:before {
+    content: '\00a0'
+}
+
+.jd div.req:after, .jd span.req:after {
+    content: '*';
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 0
+}
+
+.jd .form-horizontal .input-box {
+    display: table;
+    width: 100%
+}
+
+.jd .form-horizontal label {
+    font-weight: 700;
+    width: 28%;
+    display: table-cell;
+    line-height: 1;
+    padding-right: 10px;
+    vertical-align: middle
+}
+
+.jd .form-horizontal input[type=text], .jd .form-horizontal select {
+    display: table-cell;
+    width: 100%
+}
+
+.jd .form-horizontal.wide label {
+    width: 34%
+}
+
+.jd .radio-list.horizontal {
+    margin-top: 7px
+}
+
+.jd input ~ label ~ div {
+    user-select: none;
+    cursor: pointer
+}
+
+.jd input[readonly=readonly], .jd input[readonly=readonly]:active, .jd input[readonly=readonly]:focus, .jd input[readonly], .jd input[readonly]:active, .jd input[readonly]:focus {
+    border-color: transparent
+}
+
+.jd input[type=password].ie-fix:disabled, .jd input[type=search].ie-fix:disabled, .jd input[type=number].ie-fix:disabled, .jd input[type=text].ie-fix:disabled, .jd textarea.ie-fix:disabled {
+    color: #333;
+    border-color: transparent;
+    background-color: #fff
+}
+
+.jd select::-ms-expand {
+    display: none
+}
+
+.jd select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 15px;
+    background: url(../img/chevron.down.gray.xs.inactive.png) right 8px center no-repeat
+}
+
+.jd select:active, .jd select:focus {
+    background-image: url(../img/chevron.down.gray.xs.active.png)
+}
+
+.jd .tooltip {
+    display: none;
+    position: absolute;
+    background-color: #585858;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    padding: 5px 10px;
+    box-sizing: border-box;
+    z-index: 103;
+    border-radius: 3px;
+    margin-top: 5px;
+    max-width: 70%;
+    min-width: 100px
+}
+
+.jd .tooltip.show, .jd input[type=password]:focus + .tooltip, .jd input[type=search]:focus + .tooltip, .jd input[type=number]:focus + .tooltip, .jd input[type=text]:focus + .tooltip, .jd textarea:focus + .tooltip {
+    display: block
+}
+
+.jd .tooltip:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent transparent #585858;
+    border-width: 6px;
+    margin-right: 4px
+}
+
+.jd .tooltip.error {
+    background-color: #bd2e28;
+    color: #fff
+}
+
+.jd .tooltip.error:before {
+    border-bottom-color: #bd2e28
+}
+
+.jd .tooltip.right {
+    right: 0
+}
+
+.jd .tooltip.right:before {
+    right: 5%
+}
+
+.jd .tooltip.middle {
+    left: 20%
+}
+
+.jd .tooltip.middle:before {
+    right: 50%
+}
+
+.jd ol {
+    list-style-type: decimal;
+    padding-left: 20px
+}
+
+.jd ol.indented, .jd ul.indented {
+    margin-left: 20px
+}
+
+.jd dl dd, .jd dl dt, .jd ol li, .jd ul li {
+    padding-top: 7px;
+    line-height: 1.5
+}
+
+.jd ol li.first-child, .jd ul li:first-child {
+    padding-top: 0
+}
+
+.jd ul li {
+    padding: 15px 0 0
+}
+
+.jd ul li.first-child, .jd ul li:first-child, .jd ul.thin-list li.first-child, .jd ul.thin-list li:first-child {
+    padding-top: 0;
+    background-position-y: 5px
+}
+
+.jd ul.thin-list li {
+    padding: 0;
+    background-position: 0 10px
+}
+
+.jd ul.bulleted {
+    padding-left: .8em
+}
+
+.jd ul.bulleted li:before {
+    content: "•";
+    font-size: 100%;
+    color: #888;
+    line-height: 0;
+    position: relative;
+    display: inline-block;
+    left: -1em;
+    top: 0;
+    width: 0;
+    height: 0
+}
+
+.jd ul.line-separated li {
+    border-top: 1px solid #ddd;
+    background-image: none;
+    padding: 7px 0
+}
+
+.jd ul.line-separated li.first-child, .jd ul.line-separated li:first-child {
+    border-top: none;
+    padding-top: 0
+}
+
+.jd ul.line-separated li.last-child, .jd ul.line-separated li:last-child {
+    padding-bottom: 0
+}
+
+.jd ul.radio-list {
+    margin-bottom: 10px
+}
+
+.jd ul.radio-list li {
+    background-image: none;
+    margin: 0;
+    padding: 10px 0 0
+}
+
+.jd ul.radio-list li.first-child, .jd ul.radio-list li:first-child {
+    padding-top: 0
+}
+
+.jd ul.radio-list.horizontal li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px
+}
+
+.jd dl {
+    margin-bottom: 20px
+}
+
+.jd dl:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.jd dl.standard {
+    margin: 0;
+    padding: 0 0 1em
+}
+
+.jd dl.standard dt {
+    margin: 0;
+    padding: 0;
+    color: #888
+}
+
+.jd dl.standard dt:last-of-type {
+    margin-bottom: 0
+}
+
+.jd dl.standard dd {
+    margin: 0 0 1em;
+    padding: 0
+}
+
+.jd dl.horizontal {
+    margin: 0 0 20px;
+    padding: 0
+}
+
+.jd dl.horizontal dt {
+    padding: 0;
+    color: #888;
+    clear: both;
+    float: left;
+    text-align: left;
+    width: 22%;
+    display: inline-block;
+    margin: 0 3% 1em 0
+}
+
+.jd dl.horizontal dt:last-of-type {
+    margin-bottom: 0
+}
+
+.jd dl.horizontal dd {
+    padding: 0;
+    margin: 0;
+    float: left;
+    display: inline-block;
+    width: 75%
+}
+
+.jd dl.wide dt {
+    width: 32%
+}
+
+.jd dl.wide dd {
+    width: 65%
+}
+
+.jd .invispanel, .jd .panel {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0;
+    float: left;
+    box-sizing: border-box
+}
+
+.jd dl.thin-list dt {
+    margin-bottom: .2em
+}
+
+.jd .panel {
+    background: #fff;
+    padding: 18px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .12);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .12);
+    margin-bottom: 20px
+}
+
+.jd .joined-panels.narrow .panel, .jd .panel.narrow {
+    padding-top: 12px;
+    padding-bottom: 12px
+}
+
+.jd .panel.transparent {
+    background: 0 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.jd .panel.joined {
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd
+}
+
+.jd .panel.joined.last, .jd .panel.joined:last-child {
+    border-bottom: none
+}
+
+.jd .joined-panels .panel {
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd
+}
+
+.jd .joined-panels .panel.last, .jd .joined-panels .panel:last-child {
+    border-bottom: none;
+    margin-bottom: 20px
+}
+
+.jd #fixed-panel.loaded {
+    visibility: visible
+}
+
+.jd #fixed-panel.active-fixed {
+    position: fixed;
+    top: 20px
+}
+
+.jd #fixed-panel .nav-left {
+    margin-bottom: 0
+}
+
+.jd .invispanel {
+    margin-bottom: 20px
+}
+
+.jd .count-panel > .count, .jd.count-panel > .count {
+    color: #454545;
+    font-size: 35px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    min-width: 1.1em
+}
+
+.jd .count-panel > .text, .jd.count-panel > .text {
+    padding-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #888
+}
+
+.jd .count-panel > .text > .main-title, .jd.count-panel > .text > .main-title {
+    font-size: 18px;
+    clear: both
+}
+
+.jd .count-panel > .text > .sub-title, .jd.count-panel > .text > .sub-title {
+    font-size: 12px
+}
+
+.jd a .count-panel > .count, .jd a.count-panel > .count {
+    color: #367c2b
+}
+
+.jd a .count-panel:hover > .text, .jd a.count-panel:hover > .text {
+    color: #666
+}
+
+.jd .icon-panel, .jd.icon-panel {
+    font-size: 20px;
+    color: #888;
+    text-align: center;
+    cursor: pointer
+}
+
+.jd .icon-panel > .icon, .jd.icon-panel > .icon {
+    height: 61px;
+    width: 61px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: no-repeat
+}
+
+.jd .icon-panel > .icon.check, .jd.icon-panel > .icon.check {
+    background-image: url(../img/plus.inactive.large.png)
+}
+
+.jd .icon-panel:hover .check, .jd .icon-panel > .icon.check:hover, .jd.icon-panel:hover .check, .jd.icon-panel > .icon.check:hover {
+    background-image: url(../img/plus.active.large.png)
+}
+
+.jd .icon-panel:hover, .jd.icon-panel:hover {
+    color: #666
+}
+
+.jd .header {
+    box-sizing: border-box;
+    position: relative;
+    background: #fff;
+    min-width: 960px
+}
+
+.jd .header.no-top-nav {
+    margin-bottom: 20px
+}
+
+.jd .header .container, .jd .header .wrapper-container, .jd .header .wrapperContainer {
+    height: 80px;
+    line-height: 80px;
+    position: relative
+}
+
+.jd .header .logo {
+    position: relative;
+    top: 0;
+    height: 40px;
+    width: 200px;
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../img/deere.logo.ag.png)
+}
+
+.jd .header h1 {
+    display: inline;
+    margin: 20px 0 10px;
+    top: -10px;
+    position: relative
+}
+
+.jd .header h1.no-user {
+    position: static;
+    top: 0
+}
+
+.jd .header h1 ~ .logo {
+    padding: 20px;
+    position: absolute;
+    right: 0
+}
+
+.jd .header .user-info {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    display: inline-block;
+    color: #888;
+    padding: 0;
+    margin: 0;
+    line-height: 16px
+}
+
+.jd .nav-top, .jd .nav-top ul li a {
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .header .user-info a, .jd .header .user-info > span {
+    color: #367c2b;
+    text-decoration: none
+}
+
+.jd .header .user-info a:hover, .jd .header .user-info > span:hover {
+    text-decoration: underline
+}
+
+.jd .header .user-info > span {
+    position: relative;
+    display: inline;
+    cursor: pointer;
+    padding: 0 25px 18px 0;
+    background-image: url(../img/userinfo.dropdown.inactive.png);
+    background-repeat: no-repeat;
+    background-position: right 5px;
+    text-transform: capitalize
+}
+
+.jd .header .user-info > span.clicked {
+    z-index: 10002;
+    background-image: url(../img/userinfo.dropdown.active.png)
+}
+
+.jd .header .user-info > span.clicked + div ul {
+    white-space: nowrap;
+    cursor: default;
+    min-width: 220px;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    position: relative;
+    z-index: 10001;
+    box-sizing: border-box
+}
+
+.jd .header .user-info > span.clicked + div {
+    display: block
+}
+
+.jd .header .user-info div {
+    display: none;
+    position: relative;
+    top: 3px;
+    left: -20px;
+    margin: 0;
+    padding: 10px;
+    background-color: transparent
+}
+
+.jd .header .user-info ul {
+    margin: 0;
+    list-style-type: none;
+    display: inline-block
+}
+
+.jd .header .user-info ul li {
+    padding: 5px;
+    background-image: none
+}
+
+.jd .header .user-info ul li.user-name {
+    font-size: 18px;
+    color: #666;
+    font-weight: 700
+}
+
+.jd .header .user-info ul li.user-title {
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 15px
+}
+
+.jd .header .user-salutation {
+    position: absolute;
+    top: 23px;
+    display: inline-block;
+    left: 20px
+}
+
+.jd .header .user-salutation .salutation {
+    color: #999
+}
+
+.jd .header .brandbar-top {
+    background: #116121;
+    background: -moz-linear-gradient(left, #2f8a36 0, #21772d 48%, #116121 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #2f8a36), color-stop(48%, #21772d), color-stop(100%, #116121));
+    background: -webkit-linear-gradient(left, #2f8a36 0, #21772d 48%, #116121 100%);
+    background: -o-linear-gradient(left, #2f8a36 0, #21772d 48%, #116121 100%);
+    background: -ms-linear-gradient(left, #2f8a36 0, #21772d 48%, #116121 100%);
+    background: linear-gradient(to right, #2f8a36 0, #21772d 48%, #116121 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2f8a36', endColorstr='#116121', GradientType=1);
+    height: 15px
+}
+
+.jd .header .brandbar-bottom {
+    background: #eabc08;
+    background: -moz-linear-gradient(left, #eabc08 0, #ffde00 48%, #eabc08 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #eabc08), color-stop(48%, #ffde00), color-stop(100%, #eabc08));
+    background: -webkit-linear-gradient(left, #eabc08 0, #ffde00 48%, #eabc08 100%);
+    background: -o-linear-gradient(left, #eabc08 0, #ffde00 48%, #eabc08 100%);
+    background: -ms-linear-gradient(left, #eabc08 0, #ffde00 48%, #eabc08 100%);
+    background: linear-gradient(to right, #eabc08 0, #ffde00 48%, #eabc08 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eabc08', endColorstr='#eabc08', GradientType=1);
+    height: 5px
+}
+
+.jd #popup-background {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: #fff;
+    opacity: .01;
+    filter: alpha(opacity=01)
+}
+
+.jd .nav-top {
+    zoom: 1;
+    min-width: 960px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #fff
+}
+
+.jd .nav-top .container, .jd .nav-top .wrapper-container, .jd .nav-top .wrapperContainer {
+    height: 40px;
+    padding-left: 18px;
+    padding-right: 18px
+}
+
+.jd .nav-top ul {
+    list-style-type: none;
+    font-size: 0;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 0
+}
+
+.jd .nav-top ul li {
+    padding: 0 14px;
+    font-size: 16px;
+    background-image: none;
+    line-height: 1;
+    float: left
+}
+
+.jd .actions, .jd .footer .footer-legal {
+    float: right
+}
+
+.jd .nav-top ul li.home, .jd .nav-top ul li:first-child {
+    padding-left: 0
+}
+
+.jd .nav-top ul li.home > a {
+    height: 100%;
+    width: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(../img/home.medium.inactive.png);
+    zoom: 1
+}
+
+.jd .nav-top ul li.home.selected > a, .jd .nav-top ul li.home > a:hover {
+    background-image: url(../img/home.medium.active.png)
+}
+
+.jd .nav-top ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px 3px 9px;
+    color: #888
+}
+
+.jd .nav-top ul li.has-sub-menu {
+    position: relative;
+    padding: 0
+}
+
+.jd .nav-top ul li.has-sub-menu > a, .jd .nav-top ul li.has-sub-menu > span {
+    position: relative;
+    z-index: 101;
+    padding: 12px 3px 7px;
+    margin-left: 17px;
+    margin-right: 12px;
+    line-height: 1
+}
+
+.jd .nav-top ul li.has-sub-menu > a > span {
+    display: inline;
+    margin-left: 5px;
+    padding-right: 10px;
+    background: url(../img/chevron.down.gray.xs.active.png) center center no-repeat
+}
+
+.jd .nav-top ul li.has-sub-menu ul {
+    display: none;
+    background: #fff;
+    min-width: 200px;
+    padding: 10px 10px 15px;
+    position: absolute;
+    top: 95%;
+    z-index: 100
+}
+
+.jd .nav-top ul li.has-sub-menu ul li {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    clear: both
+}
+
+.jd .nav-top ul li.has-sub-menu ul li:first-child {
+    padding-left: 13px
+}
+
+.jd .nav-top ul li.has-sub-menu ul li a {
+    display: inline-block;
+    line-height: 1;
+    font-size: 14px;
+    z-index: 100;
+    padding-bottom: 3px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    color: #367c2b;
+    text-decoration: none
+}
+
+.jd .nav-top ul li.has-sub-menu ul li:hover a:hover {
+    border-bottom-color: #ddd
+}
+
+.jd .nav-top ul li.has-sub-menu.selected:hover > a {
+    border-bottom: none
+}
+
+.jd .nav-top ul li.has-sub-menu:hover > a, .jd .nav-top ul li.has-sub-menu:hover > span {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 12px 15px 7px 20px;
+    background-color: #fff;
+    border-bottom: 0;
+    -moz-box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07);
+    -webkit-box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07);
+    box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07)
+}
+
+.jd .nav-top ul li.has-sub-menu:hover ul {
+    -moz-box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07);
+    -webkit-box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07);
+    box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07);
+    display: block
+}
+
+.jd .nav-top ul li.has-sub-menu:hover ul li {
+    display: block;
+    border: none
+}
+
+.jd .nav-top ul li.right-side {
+    float: right;
+    padding-right: 0
+}
+
+.jd .nav-top ul li.right-side > * {
+    display: inline-block
+}
+
+.jd .nav-top ul li.search {
+    position: absolute;
+    padding: 0;
+    right: 20px;
+    margin-top: 5px
+}
+
+.jd .nav-top ul li.search:hover {
+    box-shadow: none;
+    border: none
+}
+
+.jd .nav-top ul li.search input[type=text] {
+    background-color: #f9f9f9;
+    outline: 0;
+    width: 285px;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 0 0 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #333;
+    box-sizing: content-box
+}
+
+.jd .nav-top ul li.search input[type=text].selected-search {
+    background-image: none
+}
+
+.jd .nav-top ul li.search input[type=text] + .input-label {
+    top: 8px
+}
+
+.jd .nav-top ul li.search-sub-menu {
+    position: absolute;
+    right: 0;
+    padding: 1px 0 12px;
+    box-shadow: none;
+    border: none
+}
+
+.jd .nav-top ul li.search-sub-menu > span {
+    display: block;
+    background-image: url(../img/search.small.inactive.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40px;
+    width: 50px;
+    padding: 0;
+    position: relative;
+    cursor: pointer
+}
+
+.jd .nav-top ul li.search-sub-menu.clicked {
+    z-index: 10001
+}
+
+.jd .nav-top ul li.search-sub-menu.clicked > span {
+    background-color: #fff;
+    border-bottom: 0;
+    -moz-box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07);
+    -webkit-box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07);
+    box-shadow: 10px 0 6px -4px rgba(50, 58, 69, .07), -10px 0 6px -4px rgba(50, 58, 69, .07);
+    z-index: 10002;
+    background-image: url(../img/search.small.active.png)
+}
+
+.jd .nav-top ul li.search-sub-menu.clicked ul {
+    display: block;
+    -moz-box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07);
+    -webkit-box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07);
+    box-shadow: 0 2px 8px 7px rgba(50, 58, 69, .07)
+}
+
+.jd .nav-top ul li.search-sub-menu.clicked ul li {
+    display: block;
+    border: none
+}
+
+.jd .nav-top ul li.search-sub-menu ul {
+    display: none;
+    background: #fff;
+    min-width: 200px;
+    padding: 0;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    height: 60px;
+    width: 634px
+}
+
+.jd .nav-top .alert, .jd .nav-top .alert *, .jd .nav-top .cart, .jd .nav-top .cart *, .jd .nav-top .price, .jd .nav-top .price * {
+    display: inline-block
+}
+
+.jd .nav-top ul li.search-sub-menu ul li {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.jd .nav-top ul li.search-sub-menu form {
+    position: relative;
+    margin: 15px 0 0
+}
+
+.jd .nav-top ul li.search-sub-menu input[type=text] {
+    margin-left: 30px;
+    outline: 0;
+    width: 575px;
+    background: url(../img/search.withText.active.png) 5px center no-repeat #f9f9f9;
+    height: 28px;
+    line-height: 18px;
+    padding: 0 0 0 10px;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    color: #AAA
+}
+
+.jd .nav-top ul li.search-sub-menu input[type=text].selected-search {
+    background-image: none
+}
+
+.jd .nav-top ul li.search-sub-menu div.submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 27px;
+    width: 40px;
+    border: 1px solid #FFD621;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.jd .nav-top ul li.search-sub-menu div.submit button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    height: 27px;
+    width: 40px;
+    padding: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.jd .nav-top .alert > .alert-icon, .jd .nav-top .cart > .cart-icon {
+    height: 35px;
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .nav-top > .container > ul > li > a:hover, .jd .nav-top > .wrapper-container > ul > li > a:hover, .jd .nav-top > .wrapperContainer > ul > li > a:hover {
+    border-bottom-color: #bbb;
+    color: #333
+}
+
+.jd .nav-top > .container > ul > li.selected > a, .jd .nav-top > .wrapper-container > ul > li.selected > a, .jd .nav-top > .wrapperContainer > ul > li.selected > a {
+    color: #333;
+    border-bottom: 3px solid #367c2b
+}
+
+.jd .nav-top > .container > ul > li.has-sub-menu:hover > a, .jd .nav-top > .container > ul > li.selected.has-sub-menu:hover > a, .jd .nav-top > .container > ul > li > a, .jd .nav-top > .wrapper-container > ul > li.has-sub-menu:hover > a, .jd .nav-top > .wrapper-container > ul > li.selected.has-sub-menu:hover > a, .jd .nav-top > .wrapper-container > ul > li > a, .jd .nav-top > .wrapperContainer > ul > li.has-sub-menu:hover > a, .jd .nav-top > .wrapperContainer > ul > li.selected.has-sub-menu:hover > a, .jd .nav-top > .wrapperContainer > ul > li > a {
+    border-bottom: 3px solid transparent
+}
+
+.jd .nav-top > .container > ul > li.has-sub-menu > a:hover, .jd .nav-top > .wrapper-container > ul > li.has-sub-menu > a:hover, .jd .nav-top > .wrapperContainer > ul > li.has-sub-menu > a:hover {
+    border-bottom-color: transparent
+}
+
+.jd .nav-top button img {
+    vertical-align: middle
+}
+
+.jd .nav-top .price {
+    margin-top: 10px;
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer
+}
+
+.jd .nav-top .price .total {
+    font-size: 22px
+}
+
+.jd .nav-top .price .currency {
+    font-size: 14px;
+    color: #888
+}
+
+.jd .nav-top .alert {
+    cursor: pointer
+}
+
+.jd .nav-top .alert > .alert-icon {
+    margin-left: 10px;
+    background: url(../img/notification.large.inactive.png) no-repeat;
+    width: 24px;
+    vertical-align: -18px;
+    background-position-y: 9px
+}
+
+.jd .nav-top .alert > .alert-count {
+    display: inline-block;
+    margin-left: -3px;
+    color: #888;
+    width: 0
+}
+
+.jd .nav-top .alert:hover > .alert-icon {
+    background-image: url(../img/notification.large.active.png)
+}
+
+.jd .nav-top .alert:hover > .alert-count {
+    color: #333
+}
+
+.jd .nav-top .alert.active > .alert-count, .jd .nav-top .cart > .cart-label > .amnt {
+    color: #367c2b
+}
+
+.jd .nav-top .alert.active > .alert-icon {
+    background-image: url(../img/notification.green.large.active.png)
+}
+
+.jd .nav-top .cart {
+    cursor: pointer
+}
+
+.jd .nav-top .cart > .cart-icon {
+    margin-left: 10px;
+    background: url(../img/cart.numberOutside.large.inactive.png) no-repeat;
+    width: 24px;
+    vertical-align: -9px;
+    background-position-y: 6px
+}
+
+.jd .button, .jd button, .jd dl.alert, .jd ul.alert {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .nav-top .cart > .cart-icon.inner-quantity {
+    padding-left: 8px;
+    margin-left: 10px;
+    background: url(../img/cart.numberInside.big.inactive.png) no-repeat;
+    width: 23px;
+    height: 34px;
+    vertical-align: 10px;
+    background-position-x: 6px;
+    color: #367c2b;
+    text-align: center;
+    font-size: 16px;
+    background-position-y: 6px;
+    margin-top: 5px
+}
+
+.jd .nav-top .cart > .cart-label {
+    font-size: 20px;
+    margin-left: 4px
+}
+
+.jd div#searchPopupBackground {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: #fff;
+    opacity: .01;
+    filter: alpha(opacity=01)
+}
+
+.jd .nav-left {
+    width: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .12);
+    margin-bottom: 18px
+}
+
+.jd .nav-left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+
+.jd .nav-left ul li {
+    background-image: none;
+    padding: 0;
+    cursor: pointer
+}
+
+.jd .nav-left a {
+    display: block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #888;
+    text-decoration: none
+}
+
+.jd .nav-left a:hover {
+    color: #454545;
+    text-decoration: none
+}
+
+.jd .nav-left.flat {
+    background-color: #fff
+}
+
+.jd .nav-left.flat li a {
+    padding: 10px 15px 10px 12px;
+    border-top: 1px solid #f1f1f1;
+    border-left: 3px solid transparent;
+    text-decoration: none
+}
+
+.jd .nav-left.flat li a:hover {
+    border-left-color: #ddd
+}
+
+.jd .nav-left.flat li:first-child a {
+    border-top: none
+}
+
+.jd .nav-left.flat li.selected-parent {
+    background-color: #f7f7f7
+}
+
+.jd .nav-left.flat li.selected-parent a {
+    border-left: 3px solid transparent;
+    padding-left: 12px;
+    background-color: #f7f7f7;
+    text-decoration: none
+}
+
+.jd .nav-left.flat li.selected-parent a:hover {
+    border-left-color: #ddd
+}
+
+.jd .nav-left.flat li ul {
+    display: none;
+    margin-left: 0;
+    padding-left: 0
+}
+
+.jd .nav-left.flat li ul li a {
+    border: none
+}
+
+.jd .nav-left.flat li.selected a {
+    border-left: 3px solid #367c2b
+}
+
+.jd .nav-left.flat li.selected a, .jd .nav-left.flat li.selected-parent a {
+    color: #454545
+}
+
+.jd .nav-left.flat li.selected ul, .jd .nav-left.flat li.selected-parent ul {
+    display: block;
+    background-color: #f1f1f1
+}
+
+.jd .nav-left.flat li.selected ul li, .jd .nav-left.flat li.selected-parent ul li {
+    padding: 7px 0;
+    background-color: #f7f7f7
+}
+
+.jd .nav-left.flat li.selected ul li a, .jd .nav-left.flat li.selected-parent ul li a {
+    font-size: 14px;
+    color: #888;
+    border-left: 3px solid transparent;
+    padding: 3px 10px 3px 20px
+}
+
+.jd .nav-left.flat li.selected ul li a:hover, .jd .nav-left.flat li.selected-parent ul li a:hover {
+    color: #454545;
+    border-left-color: #ddd
+}
+
+.jd .nav-left.flat li.selected ul li.selected a, .jd .nav-left.flat li.selected-parent ul li.selected a {
+    color: #454545;
+    border-left: 3px solid #367c2b
+}
+
+.jd .nav-left.flat a:active, .jd .nav-left.flat li.selected a {
+    padding-left: 12px;
+    background-color: #f7f7f7;
+    color: #454545
+}
+
+.jd .nav-left.thin-child li.selected ul li, .jd .nav-left.thin-child li.selected-parent ul li {
+    padding: 1px 0
+}
+
+.jd .button, .jd button {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 32px;
+    vertical-align: middle;
+    padding: 0 18px;
+    text-shadow: none;
+    cursor: pointer;
+    color: #454545;
+    width: auto;
+    overflow: visible;
+    background: #e9e9e9;
+    box-shadow: inset 0 13px 15px #f9f9f9;
+    white-space: nowrap
+}
+
+.jd .button:focus, .jd button:focus {
+    outline: 0
+}
+
+.jd .button:hover, .jd button:hover {
+    box-shadow: inset 0 13px 15px #fff
+}
+
+.jd .button.small, .jd button.small {
+    height: 26px;
+    font-size: 12px
+}
+
+.jd .button.call-to-action, .jd button.call-to-action {
+    background: #ffd621;
+    border: 1px solid #ffd621;
+    box-shadow: inset 0 13px 15px #fff137
+}
+
+.jd .button.call-to-action:hover, .jd button.call-to-action:hover {
+    background: #ffd621;
+    box-shadow: inset 0 13px 15px #ff0
+}
+
+.jd .button.invis, .jd .button.invis:hover, .jd button.invis, .jd button.invis:hover {
+    background-color: transparent;
+    border-width: 0;
+    box-shadow: none
+}
+
+.jd .button.wrappable, .jd button.wrappable {
+    white-space: normal;
+    height: auto;
+    padding: 8px 18px
+}
+
+.jd table.dataTable tbody td.dt-body-nowrap, .jd table.dataTable tbody th.dt-body-nowrap, .jd table.dataTable td.dt-nowrap, .jd table.dataTable tfoot td.dt-head-nowrap, .jd table.dataTable tfoot th.dt-head-nowrap, .jd table.dataTable th.dt-nowrap, .jd table.dataTable thead td.dt-head-nowrap, .jd table.dataTable thead th.dt-head-nowrap, .jd table.dataTable.nowrap td, .jd table.dataTable.nowrap th {
+    white-space: nowrap
+}
+
+.jd .button.invis, .jd button.invis {
+    filter: none;
+    font-weight: inherit;
+    height: inherit;
+    color: #367c2b;
+    padding: 0
+}
+
+.jd .button.invis.light, .jd button.invis.light {
+    color: #888
+}
+
+.jd .button.disabled, .jd button.disabled {
+    cursor: default !important;
+    color: #CCC !important;
+    background-color: #f7f7f7 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+    border: 1px solid #DDD !important;
+    filter: none !important
+}
+
+.jd .button.add-margin, .jd button.add-margin {
+    margin-bottom: 20px
+}
+
+.jd .button {
+    display: table-cell;
+    height: 30px
+}
+
+.jd .button .small {
+    height: 24px
+}
+
+.jd .footer {
+    height: 70px;
+    font-size: 14px;
+    line-height: 70px;
+    margin-top: 60px;
+    min-width: 960px;
+    background-color: #333;
+    color: #fff
+}
+
+.jd .footer a {
+    text-decoration: none;
+    padding: 0 4px;
+    color: #fff
+}
+
+.jd .footer a:hover {
+    text-decoration: underline
+}
+
+.jd .footer a span {
+    color: #aaa
+}
+
+.jd .footer .footer-links {
+    float: left
+}
+
+.jd .footer.center-footer .footer-legal, .jd .footer.center-footer .footer-links {
+    float: none;
+    text-align: center;
+    display: block
+}
+
+.jd .footer.center-footer {
+    height: 80px;
+    line-height: 23px
+}
+
+.jd .footer.center-footer .footer-links {
+    padding-top: 18px
+}
+
+.jd .wrapper-all-except-footer {
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -130px
+}
+
+.jd .wrapper-all-except-footer.center-footer {
+    margin: 0 auto -140px
+}
+
+.jd .push {
+    height: 110px;
+    clear: both
+}
+
+.jd .mini-footer {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    clear: both
+}
+
+.jd caption, .jd table.jd-table td, .jd table.jd-table th {
+    text-align: left
+}
+
+.jd .mini-footer .footer-legal, .jd .mini-footer .footer-links {
+    margin-top: 5px;
+    display: block
+}
+
+.jd dl.alert, .jd ul.alert {
+    list-style-type: none;
+    color: #454545;
+    padding-left: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-style: solid
+}
+
+.jd .tabs ul li a, .jd table.jd-table.modern-white-table h3, .jd table.jd-table.traditional-table h3, .jd ul.breadcrumb li.drop-last {
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd dl.alert dd, .jd dl.alert dt, .jd dl.alert li, .jd ul.alert dd, .jd ul.alert dt, .jd ul.alert li {
+    padding-left: 70px
+}
+
+.jd dl.success, .jd ul.success {
+    background-color: #ebf2eb;
+    border-color: #b9ceb5
+}
+
+.jd dl.error, .jd ul.error {
+    background-color: #fee;
+    border-color: #ebb5b5
+}
+
+.jd dl.caution, .jd ul.caution {
+    background-color: #ffc;
+    border-color: #f9e677
+}
+
+.jd dl.info, .jd ul.info {
+    background-color: #fafafa;
+    border-color: #c1d9e8
+}
+
+.jd dl.alert {
+    padding: 10px 0;
+    background-position: 20px 50%
+}
+
+.jd dl.alert dt {
+    font-size: 18px;
+    padding-top: 0
+}
+
+.jd dl.alert dd {
+    margin-left: 0;
+    padding-top: 0;
+    font-size: 14px
+}
+
+.jd ul.alert {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0
+}
+
+.jd ul.alert li {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.jd ul.alert li:first-child {
+    background-position: 20px center
+}
+
+.jd dl.alert.success, .jd ul.alert.success li:first-child {
+    background-image: url(../img/checkmark.large.active.png);
+    background-repeat: no-repeat
+}
+
+.jd dl.alert.error, .jd ul.alert.error li:first-child {
+    background-image: url(../img/alert.critical.large.active.png);
+    background-repeat: no-repeat
+}
+
+.jd dl.alert.caution, .jd ul.alert.caution li:first-child {
+    background-image: url(../img/alert.warning.large.active.png);
+    background-repeat: no-repeat
+}
+
+.jd dl.alert.info, .jd ul.alert.info li:first-child {
+    background-image: url(../img/information.blue.large.active.png);
+    background-repeat: no-repeat
+}
+
+.jd caption {
+    position: relative
+}
+
+.jd caption a.filter {
+    background-image: url(../img/filter.active.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 13px;
+    line-height: 22px;
+    position: absolute;
+    right: 0;
+    top: 35%
+}
+
+.jd caption .table-title, .jd caption .tableTitle {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.jd table.jd-table {
+    clear: both;
+    font-size: 12px;
+    font-weight: 400;
+    border-collapse: collapse;
+    width: 100%
+}
+
+.jd table.jd-table * {
+    vertical-align: middle
+}
+
+.jd table.jd-table td.number-cell, .jd table.jd-table td.numberCell, .jd table.jd-table th.number-cell, .jd table.jd-table th.numberCell {
+    text-align: right
+}
+
+.jd table.jd-table td.number-cell a, .jd table.jd-table td.numberCell a, .jd table.jd-table th.number-cell a, .jd table.jd-table th.numberCell a {
+    padding-right: 20px
+}
+
+.jd table.jd-table td {
+    vertical-align: top;
+    padding: 10px 15px;
+    line-height: 1.5;
+    font-size: 14px
+}
+
+.jd table.jd-table td p {
+    margin: 0
+}
+
+.jd table.jd-table td p a {
+    font-weight: 700
+}
+
+.jd table.jd-table th {
+    font-size: 12px;
+    background-clip: padding-box;
+    padding-left: 15px
+}
+
+.jd table.jd-table th .active {
+    font-weight: 700
+}
+
+.jd table.jd-table th a:hover {
+    text-decoration: none
+}
+
+.jd table.jd-table th a.sort-up, .jd table.jd-table th a.sortUp {
+    background-image: url(../img/sort.up.png)
+}
+
+.jd table.jd-table th a.sort-down, .jd table.jd-table th a.sortDown {
+    background-image: url(../img/sort.down.png)
+}
+
+.jd table.jd-table th.sort-none, .jd table.jd-table th.sortNone {
+    padding: 10px 15px
+}
+
+.jd table.jd-table .check-col, .jd table.jd-table .checkCol {
+    box-sizing: border-box;
+    width: 20px;
+    text-align: center
+}
+
+.jd table.jd-table.modern-white-table h3, .jd table.jd-table.traditional-table h3 {
+    font-size: 22px;
+    padding: 0 0 10px
+}
+
+.jd table.jd-table.modern-white-table th, .jd table.jd-table.traditional-table th {
+    background-color: #fff
+}
+
+.jd table.jd-table.modern-white-table th a, .jd table.jd-table.traditional-table th a {
+    display: block;
+    background-image: url(../img/sort.unselected.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #454545;
+    padding: 10px 0
+}
+
+.jd table.jd-table.modern-white-table th a.active, .jd table.jd-table.traditional-table th a.active, .jd table.jd-table.traditional-table th.active a {
+    color: #fff
+}
+
+.jd table.jd-table.traditional-table td {
+    border-left: 1px solid #ddd
+}
+
+.jd table.jd-table.traditional-table td:first-child {
+    border-left: none
+}
+
+.jd table.jd-table.traditional-table th {
+    background: #ddd;
+    border-left: 1px solid #fff
+}
+
+.jd table.jd-table.traditional-table th:first-child {
+    border-left: none
+}
+
+.jd table.jd-table.traditional-table th.active {
+    background-color: #367c2b
+}
+
+.jd table.jd-table.traditional-table th.active a.sort-up, .jd table.jd-table.traditional-table th.active a.sortUp {
+    background-image: url(../img/sort.up.white.png)
+}
+
+.jd table.jd-table.traditional-table th.active a.sort-down, .jd table.jd-table.traditional-table th.active a.sortDown {
+    background-image: url(../img/sort.down.white.png)
+}
+
+.jd table.jd-table.traditional-table tr {
+    background: #fff
+}
+
+.jd table.jd-table.traditional-table tr.odd, .jd table.jd-table.traditional-table tr:nth-child(odd) {
+    background-color: #f7f7f7
+}
+
+.jd table.jd-table.traditional-table tr:hover {
+    background-color: #ebf2eb
+}
+
+.jd table.jd-table.modern-white-table td {
+    border-top: 1px solid #ddd
+}
+
+.jd table.jd-table.modern-white-table th {
+    border-top: 1px solid #bbb
+}
+
+.jd table.jd-table.modern-white-table th.active {
+    border-bottom: 2px solid #367c2b;
+    position: relative;
+    top: 1px
+}
+
+.jd table.jd-table.modern-white-table th.active a.sort-up, .jd table.jd-table.modern-white-table th.active a.sortUp {
+    background-image: url(../img/sort.up.png)
+}
+
+.jd table.jd-table.modern-white-table th.active a.sort-down, .jd table.jd-table.modern-white-table th.active a.sortDown {
+    background-image: url(../img/sort.down.png)
+}
+
+.jd table.jd-table.modern-white-table tr {
+    background-color: #fff
+}
+
+.jd table.jd-table.modern-white-table tr:hover {
+    background-color: #ebf2eb
+}
+
+.jd .tabs {
+    -webkit-touch-callout: none;
+    user-select: none
+}
+
+.jd .accordion > .title, .jd .dropdown-container.user-info-style .dropdown {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none
+}
+
+.jd .tabs ul {
+    list-style-type: none;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0 0 9px
+}
+
+.jd #modal-dimmer, .jd .modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.jd .tabs ul li {
+    display: inline;
+    background-image: none;
+    border-left: 1px solid #aaa;
+    font-size: 16px;
+    padding: 0 20px 0 25px;
+    line-height: 1
+}
+
+.jd .tabs ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom: 2px solid transparent;
+    color: #367c2b;
+    display: inline-block;
+    line-height: 1
+}
+
+.jd .tabs ul li a:hover {
+    text-decoration: none;
+    border-bottom-color: #ddd;
+    color: #333
+}
+
+.jd .tabs ul li.selected a {
+    border-bottom: 2px solid #367c2b;
+    color: #333
+}
+
+.jd .tabs ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.jd .tabs.large-tabs li {
+    font-size: 22px
+}
+
+.jd .tab-content {
+    display: none
+}
+
+.jd .tab-content.active {
+    display: block
+}
+
+.jd ul.breadcrumb {
+    margin: 0 0 20px;
+    overflow: hidden;
+    font-size: 14px;
+    box-sizing: border-box
+}
+
+.jd ul.breadcrumb * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+.jd ul.breadcrumb li {
+    float: left;
+    display: inline-block;
+    background: url(../img/chevron.right.green.xs.active.png) 1px 5px no-repeat;
+    padding-left: 14px;
+    margin-right: 8px;
+    color: #888
+}
+
+.jd ul.breadcrumb li a {
+    color: #367c2b;
+    display: block
+}
+
+.jd ul.breadcrumb li:first-child {
+    padding-left: 0;
+    background: 0 0
+}
+
+.jd ul.breadcrumb li.drop-last {
+    font-size: 26px;
+    background: 0 0;
+    padding-left: 0;
+    clear: both;
+    line-height: 1
+}
+
+.jd code, .jd pre {
+    font-family: Consolas, Menlo, Monaco, "Courier New", monospace
+}
+
+.jd pre {
+    padding: 9px 12px;
+    font-size: 13px;
+    line-height: 1.4
+}
+
+.jd pre.prettyprint {
+    max-width: 100%;
+    min-width: 100%;
+    overflow-x: auto;
+    box-sizing: border-box;
+    padding: 9px 12px;
+    float: left;
+    margin-bottom: 10px
+}
+
+.jd pre.prettyprint .atv {
+    color: #367c2b
+}
+
+.jd pre.prettyprint .tag {
+    color: #095d85
+}
+
+.jd pre.prettyprint .atn {
+    color: #6b2789
+}
+
+.jd pre.prettyprint .pun {
+    color: #93772c
+}
+
+.jd pre.prettyprint .pln {
+    color: #333
+}
+
+.jd code {
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    color: #367c2b;
+    background: #e6f5e4
+}
+
+.jd .dn {
+    line-height: 150%
+}
+
+.jd .dn-title {
+    display: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-left: 20px;
+    background-repeat: no-repeat
+}
+
+.jd .dn-active > .dn-list > .dn > .dn-title {
+    color: #aaa;
+    display: inline-block;
+    font-size: 12px;
+    padding-left: 40px;
+    background-image: url(../img/chevron.right.gray.xs.active.png);
+    -ms-background-position: 28px 3px;
+    background-position: 28px 3px
+}
+
+.jd .dn-active > .dn-title, .jd .dn-selected > .dn-title, .jd .dn-top > .dn-title {
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    background-image: url(../img/chevron.down.gray.xs.active.png);
+    -ms-background-position: 3px 5px;
+    background-position: 3px 5px
+}
+
+.jd .dn-top > .dn-title {
+    color: #367c2b;
+    background-image: none;
+    -ms-background-position: 0 0;
+    background-position: 0 0;
+    padding-left: 0;
+    font-size: 16px
+}
+
+.jd .dn-top > .dn-title.with-home {
+    background-image: url(../img/home.medium.inactive.png);
+    padding-left: 20px;
+    background-size: 17px
+}
+
+.jd .dn-list > .dn.dn-terminal > .dn-title {
+    background-image: none
+}
+
+.jd .dn-list > .dn.dn-terminal > .dn-title:hover {
+    background-image: none;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #888;
+    margin-left: 30px;
+    padding-left: 7px
+}
+
+.jd .dn-list > .dn-active.dn-terminal > .dn-title, .jd .dn-list > .dn-active.dn-terminal > .dn-title:hover {
+    background-image: none;
+    color: #333;
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: #367c2b;
+    margin-left: 30px;
+    padding-left: 7px
+}
+
+.jd .dn-top.dn-active > .dn-list > .dn > .dn-title {
+    padding-left: 20px;
+    background-position-x: 8px
+}
+
+.jd .dn-top.dn-active > .dn-list > .dn.dn-terminal.dn-active > .dn-title, .jd .dn-top.dn-active > .dn-list > .dn.dn-terminal > .dn-title:hover {
+    margin-left: 10px;
+    padding-left: 7px
+}
+
+.jd #modal-dimmer {
+    top: 0;
+    z-index: -1;
+    background-color: rgba(25, 0, 25, 0);
+    transition: background-color .25s ease-out;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00333300, endColorstr=#00333333)"
+}
+
+.jd #modal-dimmer.dimmer-active {
+    background-color: rgba(51, 51, 51, .9);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6333333, endColorstr=#e6333333)";
+    z-index: 2
+}
+
+.jd .modal-open {
+    overflow: hidden
+}
+
+.jd .modal {
+    top: 0;
+    display: none;
+    z-index: 200;
+    transition: all 1s ease-out
+}
+
+.jd .modal div.caution {
+    position: absolute;
+    right: 0;
+    left: 15px;
+    background-repeat: no-repeat;
+    background-image: url(../img/alert.warning.large.active.png);
+    height: 40px;
+    width: 30px;
+    padding: 0 15px 15px
+}
+
+.jd .modal-show {
+    display: block
+}
+
+.jd .modal-open .modal {
+    overflow-x: auto;
+    overflow-y: auto
+}
+
+.jd .modal-mid {
+    width: 800px;
+    margin: 50px auto;
+    position: relative
+}
+
+.jd .modal-content {
+    padding: 18px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #454545;
+    background: #f1f1f1;
+    position: relative
+}
+
+.jd .modal-confirm-text, .jd .modal-title {
+    margin-top: 4px
+}
+
+.jd .modal-header {
+    position: inherit;
+    box-sizing: border-box;
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #454545;
+    background: #fff;
+    padding: 15px 18px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    z-index: 1
+}
+
+.jd .simple-modal .modal-content, .jd .simple-modal .modal-header {
+    font-size: 22px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .modal-spacer {
+    background: rgba(0, 100, 0, .2)
+}
+
+.jd .modal-header h1 {
+    margin: 0
+}
+
+.jd .sticky-header {
+    position: fixed;
+    top: 0;
+    width: 800px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0 10px 26px -8px #000
+}
+
+.jd .actions ul {
+    margin-bottom: 0
+}
+
+.jd .actions ul li {
+    list-style-type: none;
+    display: inline;
+    background-image: url();
+    padding: 0 0 0 10px
+}
+
+.jd .simple-modal .modal-mid {
+    width: 400px
+}
+
+.jd .simple-modal .modal-header {
+    background: #f1f1f1;
+    padding: 15px 15px 15px 55px
+}
+
+.jd .simple-modal .modal-content {
+    background: #000;
+    color: #fff
+}
+
+.jd .pagination {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    clear: both
+}
+
+.jd .pagination p {
+    float: left;
+    color: #888;
+    vertical-align: top;
+    line-height: 1;
+    font-size: 14px;
+    margin: 9px 0 0
+}
+
+.jd .pagination ul {
+    list-style-type: none;
+    padding-left: 0;
+    float: right;
+    margin: 0
+}
+
+.jd .pagination ul li {
+    display: inline;
+    background-image: none;
+    padding: 0
+}
+
+.jd .pagination ul li.next button {
+    padding-right: 3px;
+    padding-left: 10px
+}
+
+.jd .pagination .chevron-right, .jd .pagination .chevronRight {
+    background-image: url(../img/chevron.right.gray.xs.active.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-right: 13px;
+    margin-left: 3px
+}
+
+.jd .pagination .chevron-left, .jd .pagination .chevronLeft {
+    background-image: url(../img/chevron.left.gray.xs.active.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-left: 13px;
+    margin-right: 3px
+}
+
+.jd .pagination.traditional ul li {
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    vertical-align: top
+}
+
+.jd .login .login-area:after, .jd .login .login-topmatter:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.jd .pagination.traditional ul li a {
+    line-height: 32px;
+    padding: 0 8px;
+    border-bottom: 2px solid transparent
+}
+
+.jd .pagination.traditional ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ddd
+}
+
+.jd .pagination.traditional ul li.selected a {
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: default;
+    border-bottom: 2px solid #367c2b
+}
+
+.jd .pagination.traditional ul li.next button {
+    font-size: 14px;
+    line-height: 16px
+}
+
+.jd .pagination.traditional ul li.next a {
+    padding-right: 0;
+    border-bottom: 2px solid transparent
+}
+
+.jd .pagination.traditional ul li.prev a {
+    border-bottom: 0;
+    background-image: url(../img/chevron.left.gray.xs.active.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 13px
+}
+
+.jd .pagination.traditional ul li.prev a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #ddd
+}
+
+.jd .login {
+    padding-top: 25px;
+    padding-bottom: 1px;
+    margin: 0 auto
+}
+
+.jd .login .login-area {
+    margin: 0 auto;
+    max-width: 550px;
+    min-width: 300px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-sizing: border-box
+}
+
+.jd .login .panel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px
+}
+
+.jd .login .error-message {
+    margin-bottom: 15px;
+    color: #bd2e28;
+    line-height: 150%;
+    font-size: 14px
+}
+
+.jd .login .login-body {
+    width: 150%;
+    margin-left: -25%;
+    margin-bottom: 20px
+}
+
+.jd .login .login-body.small-margin {
+    margin-bottom: 10px
+}
+
+.jd .login .login-topmatter {
+    margin-bottom: 15px
+}
+
+.jd .login .login-topmatter .login-title {
+    font-family: "JohnDeereSans.Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #454545;
+    font-size: 24px
+}
+
+.jd .login .login-topmatter .login-title a {
+    color: #367c2b
+}
+
+.jd .login .login-topmatter .login-prompt, .jd .login .login-topmatter .login-title {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 150%;
+    margin-left: -25%
+}
+
+.jd .login .login-topmatter .login-prompt {
+    line-height: 150%
+}
+
+.jd .login .login-content {
+    max-width: 250px;
+    margin: 0 auto
+}
+
+.jd .login .login-header {
+    background-image: url(../img/deere.logo.ag.hq.png);
+    background-size: 80%;
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+    height: 58px;
+    max-width: 350px;
+    min-width: 300px;
+    margin: 0 auto 25px
+}
+
+.jd .login .layout-inline .layout-inline-item {
+    width: 50%
+}
+
+.jd .login .layout-inline button {
+    width: 100%
+}
+
+.jd .login .input-box, .jd .login .layout-inline {
+    margin-bottom: 10px
+}
+
+.jd .login .input-box.gapped, .jd .login .layout-inline.gapped {
+    margin-bottom: 25px
+}
+
+.jd .login .input-box.gapped + .error-message, .jd .login .layout-inline.gapped + .error-message {
+    margin-top: -10px
+}
+
+.jd .login .final-button {
+    margin-bottom: 20px
+}
+
+.jd .login ul.final-links {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #666;
+    width: 150%;
+    margin-left: -25%
+}
+
+.jd .login ul.final-links li {
+    padding-top: 3px;
+    display: inline-block
+}
+
+.jd .login ul.final-links li:before {
+    content: '\2022';
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+.jd .login ul.final-links li:first-child {
+    padding-top: 0
+}
+
+.jd .login ul.final-links li:first-child:before {
+    content: none;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+@media (max-width: 560px) {
+    .jd .login .login-body, .jd .login .login-topmatter .login-prompt, .jd .login .login-topmatter .login-title, .jd .login ul.final-links {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+.jd .accordion {
+    margin-bottom: 10px
+}
+
+.jd .accordion > .title {
+    box-sizing: border-box;
+    font-size: 16px;
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 15px 10px 35px;
+    background-image: url(/assets/img/accordian.open.small.active.png);
+    background-repeat: no-repeat;
+    background-position: 10px 11px;
+    cursor: pointer;
+    user-select: none
+}
+
+.jd .accordion > .body {
+    background-color: #fff;
+    padding: 15px 10px
+}
+
+.jd .accordion.closed > .title {
+    background-image: url(/assets/img/accordian.closed.small.active.png);
+    background-position: 10px 9px;
+    background-color: #e5e5e6
+}
+
+.jd .accordion.closed > .body {
+    display: none
+}
+
+.jd .float-alert {
+    position: fixed;
+    opacity: .9;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    display: block;
+    padding: 30px 0;
+    box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3)
+}
+
+.jd .float-alert > .content {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 auto;
+    display: table
+}
+
+.jd .float-alert.loading {
+    background-color: #fff;
+    padding: 20px 0
+}
+
+.jd .float-alert.loading > .content {
+    min-height: 55px;
+    color: #000;
+    background: url(../img/loading.small.gif) center bottom no-repeat;
+    width: 100%;
+    display: block;
+    text-align: center
+}
+
+.jd .float-alert.success {
+    background-color: #367c2b
+}
+
+.jd .float-alert.success > .content {
+    color: #fff;
+    background: url(../img/checkmark.white.large.png) 0 center no-repeat;
+    padding-left: 35px
+}
+
+.jd .dropdown-container {
+    display: inline-block
+}
+
+.jd .dropdown-container .dropdown-menu {
+    display: none
+}
+
+.jd .dropdown-container.opened .dropdown-menu {
+    display: block
+}
+
+.jd .dropdown-container.button-style {
+    position: relative
+}
+
+.jd .dropdown-container.button-style button {
+    padding-right: 36px
+}
+
+.jd .dropdown-container.button-style button.invis {
+    margin-bottom: 2px
+}
+
+.jd .dropdown-container.button-style .dropdown-menu ul, .jd .dropdown-container.user-info-style .dropdown-menu ul {
+    margin-bottom: 0
+}
+
+.jd .dropdown-container.button-style button:after {
+    content: url(../img/userinfo.dropdown.inactive.png);
+    position: absolute;
+    padding-top: 6px;
+    margin-left: -2px
+}
+
+.jd .dropdown-container.button-style button.small.invis:after {
+    padding-top: 4px
+}
+
+.jd .dropdown-container.button-style button.small ~ .dropdown-menu {
+    margin-top: 9px
+}
+
+.jd .dropdown-container.button-style .dropdown-menu {
+    left: 10px;
+    margin-top: 5px;
+    width: 200px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    padding: 15px 15px 5px;
+    box-sizing: border-box;
+    z-index: 103
+}
+
+.jd .dropdown-container.button-style .dropdown-menu:after {
+    content: ".";
+    position: relative;
+    font-size: 1px;
+    top: 40px;
+    line-height: 0
+}
+
+.jd .dropdown-container.button-style .dropdown-menu.narrow {
+    width: 100px
+}
+
+.jd .dropdown-container.button-style.opened button:after {
+    content: url(../img/userinfo.dropdown.active.png);
+    z-index: 200
+}
+
+.jd .dropdown-container.button-style.opened button.invis:after {
+    content: url(../img/userinfo.dropdown.active.green.png)
+}
+
+.jd .dropdown-container.button-style button.invis:after {
+    content: url(../img/userinfo.dropdown.inactive.green.png)
+}
+
+.jd .dropdown-container.button-style button.invis + .dropdown-menu {
+    margin-top: 11px
+}
+
+.jd .dropdown-container.user-info-style {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #888;
+    padding: 0;
+    margin: 0;
+    line-height: 16px
+}
+
+.jd .dropdown-container.user-info-style .dropdown {
+    cursor: pointer;
+    width: 150%;
+    user-select: none
+}
+
+.jd .dropdown-container.user-info-style .dropdown .user-name {
+    color: #367c2b
+}
+
+.jd .dropdown-container.user-info-style .dropdown:after {
+    content: url(../img/userinfo.dropdown.inactive.green.png);
+    position: absolute;
+    padding-top: 5px;
+    margin-left: -4px
+}
+
+.jd .dropdown-container.user-info-style .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    z-index: 103;
+    width: 240px;
+    padding: 15px 20px 20px;
+    margin-top: 13px;
+    left: 20px
+}
+
+.jd .dropdown-container.user-info-style .dropdown-menu .user-name {
+    font-size: 18px;
+    color: #666;
+    font-weight: 700
+}
+
+.jd .dropdown-container.user-info-style .dropdown-menu .user-title {
+    color: #999;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 3px
+}
+
+.jd .dropdown-container.user-info-style.opened .dropdown:after {
+    content: url(../img/userinfo.dropdown.active.green.png);
+    z-index: 200
+}
+
+.jd .dropdown-container.theme-switcher-style .dlabel {
+    display: inline-block;
+    color: #888
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown {
+    display: inline-block;
+    cursor: pointer
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown:before {
+    content: "Green/Yellow";
+    color: #367c2b;
+    display: inline-block
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown:after {
+    content: url(../img/userinfo.dropdown.inactive.green.png);
+    position: relative;
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: -10px;
+    top: 16px;
+    z-index: 200
+}
+
+.jd .dropdown-container.theme-switcher-style.opened .dropdown:after {
+    content: url(../img/userinfo.dropdown.active.green.png)
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    z-index: 103;
+    width: 350px;
+    right: 12px;
+    margin-top: 13px;
+    padding: 0
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu ul {
+    padding: 5px 0
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li {
+    cursor: pointer;
+    padding: 0;
+    float: initial;
+    border-left: 4px solid transparent;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li:hover {
+    border-left-color: #ddd
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li > .text {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 700
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li > .text > .title {
+    font-size: 16px;
+    color: #454545;
+    font-weight: 700
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li > .text > .descriptor {
+    font-size: 14px;
+    color: #999
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li.green-yellow-selector {
+    border-left-color: #367c2b;
+    background-color: #f4f4f4
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li:before {
+    display: table-cell;
+    padding: 20px
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li.green-yellow-selector:before {
+    content: url(../img/ColorswitcherGreenYellow.png)
+}
+
+.jd .dropdown-container.theme-switcher-style .dropdown-menu li.black-yellow-selector:before {
+    content: url(../img/ColorswitcherBlackYellow.png)
+}
+
+.jd .error-page {
+    width: 50%;
+    margin: 50px auto 0;
+    text-align: center;
+    padding-top: 270px;
+    background: url(../img/alert.white.xlarge.active.png) 50% 0 no-repeat
+}
+
+.jd .error-page * {
+    margin-bottom: 15px
+}
+
+.jd .error-page .main-text {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.25
+}
+
+.jd .error-page .secondary-text {
+    font-size: 18px;
+    color: #888
+}
+
+.jd .error-page .tertiary-text {
+    font-size: 16px;
+    color: #888
+}
+
+.jd .nvd3 .nv-legend .nv-series {
+    cursor: initial
+}
+
+.jd .nvtooltip {
+    background: #f7f7f7;
+    border: 1px solid #333
+}
+
+.jd .nvtooltip table tr td {
+    padding: 10px 15px
+}
+
+.jd .nvtooltip table tr.highlight td {
+    background: #ddd;
+    font-weight: 700
+}
+
+.jd .nvtooltip table td.legend-color-guide div {
+    border-radius: 2px;
+    border: none;
+    width: 14px;
+    height: 14px
+}
+
+.jd table.dataTable {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    padding: 15px 0
+}
+
+.jd table.dataTable tfoot th, .jd table.dataTable thead th {
+    background-color: #ddd;
+    border-left: 1px solid #fff;
+    font-size: 13px
+}
+
+.jd table.dataTable tfoot th:first-child, .jd table.dataTable thead th:first-child {
+    border-left: none
+}
+
+.jd table.dataTable thead td, .jd table.dataTable thead th {
+    padding: 10px 18px;
+    border-bottom: 0 solid #111
+}
+
+.jd table.dataTable thead td:active, .jd table.dataTable thead th:active {
+    outline: 0
+}
+
+.jd table.dataTable tfoot td, .jd table.dataTable tfoot th {
+    display: none;
+    padding: 10px 18px 6px;
+    border-top: 0 solid #111
+}
+
+.jd table.dataTable thead .sorting, .jd table.dataTable thead .sorting_asc, .jd table.dataTable thead .sorting_desc {
+    cursor: pointer
+}
+
+.jd table.dataTable thead .sorting_asc, .jd table.dataTable thead .sorting_desc {
+    background-color: #367c2b;
+    color: #fff
+}
+
+.jd table.dataTable thead .sorting, .jd table.dataTable thead .sorting_asc, .jd table.dataTable thead .sorting_asc_disabled, .jd table.dataTable thead .sorting_desc, .jd table.dataTable thead .sorting_desc_disabled {
+    background-repeat: no-repeat;
+    background-position: center right
+}
+
+.jd table.dataTable thead .sorting {
+    background-image: url(../img/sort.unselected.png)
+}
+
+.jd table.dataTable thead .sorting_asc {
+    background-image: url(../img/sort.up.white.png)
+}
+
+.jd table.dataTable thead .sorting_desc {
+    background-image: url(../img/sort.down.white.png)
+}
+
+.jd table.dataTable thead .sorting_asc_disabled {
+    background-image: url(../images/sort_asc_disabled.png)
+}
+
+.jd table.dataTable thead .sorting_desc_disabled {
+    background-image: url(../images/sort_desc_disabled.png)
+}
+
+.jd table.dataTable tbody tr {
+    background-color: #fff
+}
+
+.jd table.dataTable tbody tr.selected {
+    background-color: #b0bed9
+}
+
+.jd table.dataTable tbody td, .jd table.dataTable tbody th {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333
+}
+
+.jd table.dataTable.display tbody td, .jd table.dataTable.display tbody th, .jd table.dataTable.row-border tbody td, .jd table.dataTable.row-border tbody th {
+    border-left: 1px solid #ddd
+}
+
+.jd table.dataTable.display tbody td:first-child, .jd table.dataTable.display tbody th:first-child, .jd table.dataTable.row-border tbody td:first-child, .jd table.dataTable.row-border tbody th:first-child {
+    border-left: none
+}
+
+.jd table.dataTable.display tbody tr:first-child td, .jd table.dataTable.display tbody tr:first-child th, .jd table.dataTable.row-border tbody tr:first-child td, .jd table.dataTable.row-border tbody tr:first-child th {
+    border-top: none
+}
+
+.jd table.dataTable.cell-border tbody td, .jd table.dataTable.cell-border tbody th {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd
+}
+
+.jd table.dataTable.cell-border tbody tr td:first-child, .jd table.dataTable.cell-border tbody tr th:first-child {
+    border-left: 1px solid #ddd
+}
+
+.jd table.dataTable.cell-border tbody tr:first-child td, .jd table.dataTable.cell-border tbody tr:first-child th {
+    border-top: none
+}
+
+.jd table.dataTable.display tbody tr.even, .jd table.dataTable.stripe tbody tr.even {
+    background-color: #f9f9f9
+}
+
+.jd table.dataTable.display tbody tr.even.selected, .jd table.dataTable.stripe tbody tr.even.selected {
+    background-color: #a8b7d5
+}
+
+.jd table.dataTable.display tbody tr:hover, .jd table.dataTable.hover tbody tr:hover {
+    background-color: #EBF2EB
+}
+
+.jd table.dataTable.display tbody tr:hover.selected, .jd table.dataTable.hover tbody tr:hover.selected {
+    background-color: #a4b4d3
+}
+
+.jd table.dataTable.display tbody tr > .sorting_1, .jd table.dataTable.display tbody tr > .sorting_2, .jd table.dataTable.display tbody tr > .sorting_3, .jd table.dataTable.order-column tbody tr > .sorting_1, .jd table.dataTable.order-column tbody tr > .sorting_2, .jd table.dataTable.order-column tbody tr > .sorting_3 {
+    background-color: #fafafa
+}
+
+.jd table.dataTable.display tbody tr.selected > .sorting_1, .jd table.dataTable.display tbody tr.selected > .sorting_2, .jd table.dataTable.display tbody tr.selected > .sorting_3, .jd table.dataTable.order-column tbody tr.selected > .sorting_1, .jd table.dataTable.order-column tbody tr.selected > .sorting_2, .jd table.dataTable.order-column tbody tr.selected > .sorting_3 {
+    background-color: #a9b8d6
+}
+
+.jd table.dataTable.display tbody tr.even > .sorting_1, .jd table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background-color: #f1f1f1
+}
+
+.jd table.dataTable.display tbody tr.even > .sorting_2, .jd table.dataTable.order-column.stripe tbody tr.even > .sorting_2 {
+    background-color: #f3f3f3
+}
+
+.jd table.dataTable.display tbody tr.even > .sorting_3, .jd table.dataTable.order-column.stripe tbody tr.even > .sorting_3 {
+    background-color: #f5f5f5
+}
+
+.jd table.dataTable.display tbody tr.even.selected > .sorting_1, .jd table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_1 {
+    background-color: #9dafd0
+}
+
+.jd table.dataTable.display tbody tr.even.selected > .sorting_2, .jd table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_2 {
+    background-color: #a0b1d1
+}
+
+.jd table.dataTable.display tbody tr.even.selected > .sorting_3, .jd table.dataTable.order-column.stripe tbody tr.even.selected > .sorting_3 {
+    background-color: #a3b3d3
+}
+
+.jd table.dataTable.display tbody tr.odd > .sorting_1, .jd table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 {
+    background-color: #fafafa
+}
+
+.jd table.dataTable.display tbody tr.odd > .sorting_2, .jd table.dataTable.order-column.stripe tbody tr.odd > .sorting_2 {
+    background-color: #fcfcfc
+}
+
+.jd table.dataTable.display tbody tr.odd > .sorting_3, .jd table.dataTable.order-column.stripe tbody tr.odd > .sorting_3 {
+    background-color: #fefefe
+}
+
+.jd table.dataTable.display tbody tr.odd.selected > .sorting_1, .jd table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_1 {
+    background-color: #a9b8d6
+}
+
+.jd table.dataTable.display tbody tr.odd.selected > .sorting_2, .jd table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_2 {
+    background-color: #acbbd7
+}
+
+.jd table.dataTable.display tbody tr.odd.selected > .sorting_3, .jd table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_3 {
+    background-color: #afbdd8
+}
+
+.jd table.dataTable.display tbody tr:hover, .jd table.dataTable.display tbody tr:hover.selected > .sorting_1, .jd table.dataTable.display tbody tr:hover.selected > .sorting_2, .jd table.dataTable.display tbody tr:hover.selected > .sorting_3, .jd table.dataTable.display tbody tr:hover > .sorting_1, .jd table.dataTable.display tbody tr:hover > .sorting_2, .jd table.dataTable.display tbody tr:hover > .sorting_3, .jd table.dataTable.order-column.hover tbody tr:hover, .jd table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_1, .jd table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_2, .jd table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_3, .jd table.dataTable.order-column.hover tbody tr:hover > .sorting_1, .jd table.dataTable.order-column.hover tbody tr:hover > .sorting_2, .jd table.dataTable.order-column.hover tbody tr:hover > .sorting_3 {
+    background-color: #ebf2eb
+}
+
+.jd table.dataTable.no-footer {
+    border-bottom: 0 solid #111
+}
+
+.jd table.dataTable.compact thead td, .jd table.dataTable.compact thead th {
+    padding: 4px 17px 4px 4px
+}
+
+.jd table.dataTable.compact tbody td, .jd table.dataTable.compact tbody th, .jd table.dataTable.compact tfoot td, .jd table.dataTable.compact tfoot th {
+    padding: 4px
+}
+
+.jd table.dataTable td.dt-left, .jd table.dataTable th.dt-left {
+    text-align: left
+}
+
+.jd table.dataTable td.dataTables_empty, .jd table.dataTable td.dt-center, .jd table.dataTable th.dt-center {
+    text-align: center
+}
+
+.jd table.dataTable td.dt-right, .jd table.dataTable th.dt-right {
+    text-align: right
+}
+
+.jd table.dataTable td.dt-justify, .jd table.dataTable th.dt-justify {
+    text-align: justify
+}
+
+.jd table.dataTable tfoot td.dt-head-left, .jd table.dataTable tfoot th.dt-head-left, .jd table.dataTable thead td.dt-head-left, .jd table.dataTable thead th.dt-head-left {
+    text-align: left
+}
+
+.jd table.dataTable tfoot td.dt-head-center, .jd table.dataTable tfoot th.dt-head-center, .jd table.dataTable thead td.dt-head-center, .jd table.dataTable thead th.dt-head-center {
+    text-align: center
+}
+
+.jd table.dataTable tfoot td.dt-head-right, .jd table.dataTable tfoot th.dt-head-right, .jd table.dataTable thead td.dt-head-right, .jd table.dataTable thead th.dt-head-right {
+    text-align: right
+}
+
+.jd table.dataTable tfoot td.dt-head-justify, .jd table.dataTable tfoot th.dt-head-justify, .jd table.dataTable thead td.dt-head-justify, .jd table.dataTable thead th.dt-head-justify {
+    text-align: justify
+}
+
+.jd table.dataTable tbody td.dt-body-left, .jd table.dataTable tbody th.dt-body-left {
+    text-align: left
+}
+
+.jd table.dataTable tbody td.dt-body-center, .jd table.dataTable tbody th.dt-body-center {
+    text-align: center
+}
+
+.jd table.dataTable tbody td.dt-body-right, .jd table.dataTable tbody th.dt-body-right {
+    text-align: right
+}
+
+.jd table.dataTable tbody td.dt-body-justify, .jd table.dataTable tbody th.dt-body-justify {
+    text-align: justify
+}
+
+.jd table.dataTable, .jd table.dataTable td, .jd table.dataTable th {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+.jd .dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1
+}
+
+.jd .dataTables_wrapper input[type=search], .jd .dataTables_wrapper select {
+    width: auto;
+    width: initial
+}
+
+.jd .dataTables_wrapper .dataTables_length {
+    float: left
+}
+
+.jd .dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right
+}
+
+.jd .dataTables_wrapper .dataTables_filter input {
+    margin-left: .5em
+}
+
+.jd .dataTables_wrapper .dataTables_info {
+    clear: both;
+    float: left;
+    padding-top: .25em
+}
+
+.jd .dataTables_wrapper .dataTables_paginate {
+    float: right;
+    text-align: right;
+    padding-top: .25em
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0 8px 2px;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #367c2b;
+    border-bottom: 2px solid transparent;
+    border-radius: 0
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.current, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #333 !important;
+    font-weight: 700;
+    border-bottom: 2px solid #367c2b
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover {
+    cursor: default;
+    color: #aaa;
+    border-bottom: 2px solid transparent;
+    box-shadow: none
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.next, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active.next, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover.next {
+    background-image: url(../img/chevron.right.gray.xs.inactive.png)
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled.previous, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active.previous, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover.previous {
+    background-image: url(../img/chevron.left.gray.xs.inactive.png)
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.next, .jd .dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+    border-bottom: 0;
+    background-repeat: no-repeat
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.next {
+    background-image: url(../img/chevron.right.gray.xs.active.png);
+    background-position: center right;
+    padding-right: 13px
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button.previous {
+    background-image: url(../img/chevron.left.gray.xs.active.png);
+    background-position: center left;
+    padding-left: 13px
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border-bottom: 2px solid #ddd
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .paginate_button:active {
+    outline: 0
+}
+
+.jd .dataTables_wrapper .dataTables_paginate .ellipsis {
+    padding: 0 1em
+}
+
+.jd .dataTables_wrapper .dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #fff
+}
+
+.jd .dataTables_wrapper .dataTables_filter, .jd .dataTables_wrapper .dataTables_info, .jd .dataTables_wrapper .dataTables_length, .jd .dataTables_wrapper .dataTables_paginate, .jd .dataTables_wrapper .dataTables_processing {
+    color: #333
+}
+
+.jd .dataTables_wrapper .dataTables_scroll {
+    clear: both
+}
+
+.jd .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody {
+    -webkit-overflow-scrolling: touch
+}
+
+.jd .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td, .jd .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th {
+    vertical-align: middle
+}
+
+.jd .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody td > div.dataTables_sizing, .jd .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody th > div.dataTables_sizing {
+    height: 0;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important
+}
+
+.jd .dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 0 solid #111
+}
+
+.jd .dataTables_wrapper.no-footer div.dataTables_scrollBody table, .jd .dataTables_wrapper.no-footer div.dataTables_scrollHead table {
+    border-bottom: none
+}
+
+.jd .dataTables_wrapper:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0
+}
+
+@media screen and (max-width: 767px) {
+    .jd .dataTables_wrapper .dataTables_info, .jd .dataTables_wrapper .dataTables_paginate {
+        float: none;
+        text-align: center
+    }
+
+    .jd .dataTables_wrapper .dataTables_paginate {
+        margin-top: .5em
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .jd .dataTables_wrapper .dataTables_filter, .jd .dataTables_wrapper .dataTables_length {
+        float: none;
+        text-align: center
+    }
+
+    .jd .dataTables_wrapper .dataTables_filter {
+        margin-top: .5em
+    }
+}
+
+.jd .jd-dev-hide {
+    display: none
+}
+
+.jd .jd-dev .input-box input.datepick, .jd.jd-dev .input-box input.datepick {
+    padding-right: 20px;
+    background: url(../img/calendar.small.inactive.png) right 8px center no-repeat
+}
+
+.jd .jd-dev .input-box input.datepick.active, .jd .jd-dev .input-box input.datepick.focus, .jd .jd-dev .input-box input.datepick:focus, .jd.jd-dev .input-box input.datepick.active, .jd.jd-dev .input-box input.datepick.focus, .jd.jd-dev .input-box input.datepick:focus {
+    background-image: url(../img/calendar.small.active.png)
+}
+
+.jd .jd-dev .input-box input.datepick.active ~ .calendar, .jd .jd-dev .input-box input.datepick.focus ~ .calendar, .jd .jd-dev .input-box input.datepick:focus ~ .calendar, .jd.jd-dev .input-box input.datepick.active ~ .calendar, .jd.jd-dev .input-box input.datepick.focus ~ .calendar, .jd.jd-dev .input-box input.datepick:focus ~ .calendar {
+    display: block
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar, .jd.jd-dev .input-box input.datepick ~ .calendar {
+    display: none;
+    background-color: #fff;
+    position: absolute;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    z-index: 103;
+    cursor: default;
+    right: -20px;
+    margin-top: 8px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar:before, .jd.jd-dev .input-box input.datepick ~ .calendar:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 3em;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    border: .8em solid #000;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3)
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month, .jd.jd-dev .input-box input.datepick ~ .calendar > .month {
+    height: 100%;
+    width: 100%;
+    display: table;
+    text-align: center;
+    border-spacing: 2px
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title {
+    display: table-caption;
+    padding: 0 20px 3px
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title *, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title * {
+    box-sizing: border-box
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .name, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .name {
+    display: inline-block;
+    font-weight: 700;
+    padding: 5px 10px;
+    margin-top: 1px;
+    width: 60%
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control {
+    background: 50% 50% no-repeat;
+    height: 20px;
+    width: 20%;
+    cursor: pointer;
+    display: inline-block;
+    padding: 2px 10px 4px;
+    margin-top: 2px;
+    font-weight: 700
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.left, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.left {
+    background-image: url(../img/chevron.left.gray.small.inactive.png);
+    float: left
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.left:hover, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.left:hover {
+    background-image: url(../img/chevron.left.gray.small.active.png)
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.right, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.right {
+    background-image: url(../img/chevron.right.gray.small.inactive.png);
+    float: right
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.right:hover, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .title > .control.right:hover {
+    background-image: url(../img/chevron.right.gray.small.active.png)
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week-title, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week-title {
+    display: table-row
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week-title > .lbl, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week-title > .lbl {
+    display: table-cell;
+    font-weight: 700
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week {
+    display: table-row
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day {
+    display: table-cell;
+    cursor: pointer;
+    padding: 2px 4px;
+    text-align: right;
+    border: 1px solid transparent
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day:hover, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day:hover {
+    background: #f1f1f1
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.selected, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.selected {
+    border-color: #888;
+    border-radius: 3px
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.no:hover, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.no:hover {
+    background: initial;
+    cursor: default
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.inactive, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.inactive {
+    color: #ddd;
+    cursor: default
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.inactive:hover, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.inactive:hover {
+    background: initial
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.today, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.today {
+    background: #666;
+    color: #fff
+}
+
+.jd .jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.today.selected, .jd.jd-dev .input-box input.datepick ~ .calendar > .month > .week-container > .week > .day.today.selected {
+    background: #888;
+    border-radius: 3px
+}
+
+.jd .jd-dev .jd-dev-wireframe .nav-left, .jd .jd-dev .jd-dev-wireframe .panel, .jd .jd-dev.jd-dev-wireframe .nav-left, .jd .jd-dev.jd-dev-wireframe .panel, .jd.jd-dev .jd-dev-wireframe .nav-left, .jd.jd-dev .jd-dev-wireframe .panel, .jd.jd-dev.jd-dev-wireframe .nav-left, .jd.jd-dev.jd-dev-wireframe .panel {
+    border: 3px solid #000 !important
+}
+
+.jd .jd-dev .input-box input.datepick ~ .error ~ .calendar, .jd.jd-dev .input-box input.datepick ~ .error ~ .calendar {
+    margin-top: -14px
+}
+
+.jd .jd-dev .jd-dev-altmin div.container, .jd .jd-dev .jd-dev-altmin div.wrapper-container, .jd .jd-dev .jd-dev-altmin div.wrapperContainer, .jd .jd-dev.jd-dev-altmin div.container, .jd .jd-dev.jd-dev-altmin div.wrapper-container, .jd .jd-dev.jd-dev-altmin div.wrapperContainer, .jd.jd-dev .jd-dev-altmin div.container, .jd.jd-dev .jd-dev-altmin div.wrapper-container, .jd.jd-dev .jd-dev-altmin div.wrapperContainer, .jd.jd-dev.jd-dev-altmin div.container, .jd.jd-dev.jd-dev-altmin div.wrapper-container, .jd.jd-dev.jd-dev-altmin div.wrapperContainer {
+    min-width: 800px
+}
+
+.jd .jd-dev .jd-dev-wireframe .panel:before, .jd .jd-dev.jd-dev-wireframe .panel:before, .jd.jd-dev .jd-dev-wireframe .panel:before, .jd.jd-dev.jd-dev-wireframe .panel:before {
+    content: '.panel';
+    visibility: visible;
+    font-family: monospace;
+    font-size: 25px;
+    padding-left: 5px;
+    display: block
+}
+
+.jd .jd-dev .jd-dev-wireframe .col-1-6, .jd .jd-dev .jd-dev-wireframe .header, .jd .jd-dev.jd-dev-wireframe .col-1-6, .jd .jd-dev.jd-dev-wireframe .header, .jd.jd-dev .jd-dev-wireframe .col-1-6, .jd.jd-dev .jd-dev-wireframe .header, .jd.jd-dev.jd-dev-wireframe .col-1-6, .jd.jd-dev.jd-dev-wireframe .header {
+    border: 3px solid #000
+}
+
+.jd .jd-dev .jd-dev-wireframe .nav-left:before, .jd .jd-dev.jd-dev-wireframe .nav-left:before, .jd.jd-dev .jd-dev-wireframe .nav-left:before, .jd.jd-dev.jd-dev-wireframe .nav-left:before {
+    content: '.nav-left';
+    visibility: visible;
+    font-family: monospace;
+    font-size: 25px;
+    padding-left: 5px;
+    display: block
+}
+
+.jd .jd-dev .jd-dev-wireframe .col-1-6:before, .jd .jd-dev.jd-dev-wireframe .col-1-6:before, .jd.jd-dev .jd-dev-wireframe .col-1-6:before, .jd.jd-dev.jd-dev-wireframe .col-1-6:before {
+    content: '.col-1-6';
+    font-family: monospace;
+    font-size: 25px;
+    padding-left: 5px;
+    display: block
+}
+
+.jd .jd-dev .jd-dev-wireframe .header:before, .jd .jd-dev.jd-dev-wireframe .header:before, .jd.jd-dev .jd-dev-wireframe .header:before, .jd.jd-dev.jd-dev-wireframe .header:before {
+    content: '.header';
+    font-family: monospace;
+    font-size: 25px;
+    padding-left: 5px;
+    display: block
+}
+
+.jd .jd-dev .jd-dev-debug-color div.container, .jd .jd-dev .jd-dev-debug-color div.wrapper-container, .jd .jd-dev .jd-dev-debug-color div.wrapperContainer, .jd .jd-dev.jd-dev-debug-color div.container, .jd .jd-dev.jd-dev-debug-color div.wrapper-container, .jd .jd-dev.jd-dev-debug-color div.wrapperContainer, .jd.jd-dev .jd-dev-debug-color div.container, .jd.jd-dev .jd-dev-debug-color div.wrapper-container, .jd.jd-dev .jd-dev-debug-color div.wrapperContainer, .jd.jd-dev.jd-dev-debug-color div.container, .jd.jd-dev.jd-dev-debug-color div.wrapper-container, .jd.jd-dev.jd-dev-debug-color div.wrapperContainer {
+    background-color: #0ff
+}
+
+.jd .jd-dev .jd-dev-debug-color ul, .jd .jd-dev.jd-dev-debug-color ul, .jd.jd-dev .jd-dev-debug-color ul, .jd.jd-dev.jd-dev-debug-color ul {
+    background-color: #add8e6
+}
+
+.jd .jd-dev .jd-dev-debug-color li, .jd .jd-dev.jd-dev-debug-color li, .jd.jd-dev .jd-dev-debug-color li, .jd.jd-dev.jd-dev-debug-color li {
+    background-color: #e0ffff
+}
+
+.jd .jd-dev .jd-dev-debug-color .panel, .jd .jd-dev.jd-dev-debug-color .panel, .jd.jd-dev .jd-dev-debug-color .panel, .jd.jd-dev.jd-dev-debug-color .panel {
+    background-color: #f08080
+}
+
+.jd .jd-dev .jd-dev-debug-color .row, .jd .jd-dev.jd-dev-debug-color .row, .jd.jd-dev .jd-dev-debug-color .row, .jd.jd-dev.jd-dev-debug-color .row {
+    background-color: #6495ed
+}
+
+.jd .jd-dev .jd-dev-debug-color .h1, .jd .jd-dev .jd-dev-debug-color .h2, .jd .jd-dev .jd-dev-debug-color .h3, .jd .jd-dev .jd-dev-debug-color .h4, .jd .jd-dev .jd-dev-debug-color .h5, .jd .jd-dev .jd-dev-debug-color .h6, .jd .jd-dev .jd-dev-debug-color h1, .jd .jd-dev .jd-dev-debug-color h2, .jd .jd-dev .jd-dev-debug-color h3, .jd .jd-dev .jd-dev-debug-color h4, .jd .jd-dev .jd-dev-debug-color h5, .jd .jd-dev .jd-dev-debug-color h6, .jd .jd-dev.jd-dev-debug-color .h1, .jd .jd-dev.jd-dev-debug-color .h2, .jd .jd-dev.jd-dev-debug-color .h3, .jd .jd-dev.jd-dev-debug-color .h4, .jd .jd-dev.jd-dev-debug-color .h5, .jd .jd-dev.jd-dev-debug-color .h6, .jd .jd-dev.jd-dev-debug-color h1, .jd .jd-dev.jd-dev-debug-color h2, .jd .jd-dev.jd-dev-debug-color h3, .jd .jd-dev.jd-dev-debug-color h4, .jd .jd-dev.jd-dev-debug-color h5, .jd .jd-dev.jd-dev-debug-color h6, .jd.jd-dev .jd-dev-debug-color .h1, .jd.jd-dev .jd-dev-debug-color .h2, .jd.jd-dev .jd-dev-debug-color .h3, .jd.jd-dev .jd-dev-debug-color .h4, .jd.jd-dev .jd-dev-debug-color .h5, .jd.jd-dev .jd-dev-debug-color .h6, .jd.jd-dev .jd-dev-debug-color h1, .jd.jd-dev .jd-dev-debug-color h2, .jd.jd-dev .jd-dev-debug-color h3, .jd.jd-dev .jd-dev-debug-color h4, .jd.jd-dev .jd-dev-debug-color h5, .jd.jd-dev .jd-dev-debug-color h6, .jd.jd-dev.jd-dev-debug-color .h1, .jd.jd-dev.jd-dev-debug-color .h2, .jd.jd-dev.jd-dev-debug-color .h3, .jd.jd-dev.jd-dev-debug-color .h4, .jd.jd-dev.jd-dev-debug-color .h5, .jd.jd-dev.jd-dev-debug-color .h6, .jd.jd-dev.jd-dev-debug-color h1, .jd.jd-dev.jd-dev-debug-color h2, .jd.jd-dev.jd-dev-debug-color h3, .jd.jd-dev.jd-dev-debug-color h4, .jd.jd-dev.jd-dev-debug-color h5, .jd.jd-dev.jd-dev-debug-color h6 {
+    background-color: red
+}
+
+.jd .jd-dev .jd-dev-debug-color .p, .jd .jd-dev .jd-dev-debug-color p, .jd .jd-dev.jd-dev-debug-color .p, .jd .jd-dev.jd-dev-debug-color p, .jd.jd-dev .jd-dev-debug-color .p, .jd.jd-dev .jd-dev-debug-color p, .jd.jd-dev.jd-dev-debug-color .p, .jd.jd-dev.jd-dev-debug-color p {
+    background-color: #00ff7f
+}
+
+.jd .jd-dev .jd-dev-debug-color button, .jd .jd-dev.jd-dev-debug-color button, .jd.jd-dev .jd-dev-debug-color button, .jd.jd-dev.jd-dev-debug-color button {
+    box-shadow: none;
+    border-color: green;
+    background-color: burlygreen
+}
+
+.jd .jd-dev .jd-dev-debug-color button.call-to-action, .jd .jd-dev.jd-dev-debug-color button.call-to-action, .jd.jd-dev .jd-dev-debug-color button.call-to-action, .jd.jd-dev.jd-dev-debug-color button.call-to-action {
+    background-color: violet
+}
+
+.jd .jd-dev .jd-dev-debug-color .header, .jd .jd-dev.jd-dev-debug-color .header, .jd.jd-dev .jd-dev-debug-color .header, .jd.jd-dev.jd-dev-debug-color .header {
+    background-color: #000
+}
+
+.jd .jd-dev .jd-dev-debug-color a, .jd .jd-dev.jd-dev-debug-color a, .jd.jd-dev .jd-dev-debug-color a, .jd.jd-dev.jd-dev-debug-color a {
+    background-color: #ff0;
+    color: #000
+}
+
+.jd .jd-dev .jd-dev-flat-buttons button, .jd .jd-dev.jd-dev-flat-buttons button, .jd.jd-dev .jd-dev-flat-buttons button, .jd.jd-dev.jd-dev-flat-buttons button {
+    border: none;
+    font-weight: 400;
+    background-shadow: none;
+    background: #e5e5e6;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    width: 100%;
+    max-width: 800px
+}
+
+.jd .jd-dev .jd-dev-flat-buttons button:hover, .jd .jd-dev.jd-dev-flat-buttons button:hover, .jd.jd-dev .jd-dev-flat-buttons button:hover, .jd.jd-dev.jd-dev-flat-buttons button:hover {
+    box-shadow: none;
+    background: #cbcbcd
+}
+
+.jd .jd-dev .jd-dev-flat-buttons button.call-to-action, .jd .jd-dev.jd-dev-flat-buttons button.call-to-action, .jd.jd-dev .jd-dev-flat-buttons button.call-to-action, .jd.jd-dev.jd-dev-flat-buttons button.call-to-action {
+    box-shadow: none;
+    background: #ffde00
+}
+
+.jd .jd-dev .jd-dev-flat-buttons button.call-to-action:hover, .jd .jd-dev.jd-dev-flat-buttons button.call-to-action:hover, .jd.jd-dev .jd-dev-flat-buttons button.call-to-action:hover, .jd.jd-dev.jd-dev-flat-buttons button.call-to-action:hover {
+    box-shadow: none;
+    background: #ccb200
+}
+
+.jd .jd-dev .jd-dev-search-bar, .jd .jd-dev.jd-dev-search-bar, .jd.jd-dev .jd-dev-search-bar, .jd.jd-dev.jd-dev-search-bar {
+    margin-bottom: 20px
+}
+
+.jd .jd-dev .jd-dev-search-bar input, .jd .jd-dev.jd-dev-search-bar input, .jd.jd-dev .jd-dev-search-bar input, .jd.jd-dev.jd-dev-search-bar input {
+    height: 50px;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .12);
+    background: url(../img/search.large.inactive.png) 12px center no-repeat #fff;
+    padding-left: 50px;
+    font-size: 20px
+}
+
+.jd .jd-dev .jd-dev-search-bar input.no-search-icon, .jd .jd-dev .jd-dev-search-bar input:focus, .jd .jd-dev.jd-dev-search-bar input.no-search-icon, .jd .jd-dev.jd-dev-search-bar input:focus, .jd.jd-dev .jd-dev-search-bar input.no-search-icon, .jd.jd-dev .jd-dev-search-bar input:focus, .jd.jd-dev.jd-dev-search-bar input.no-search-icon, .jd.jd-dev.jd-dev-search-bar input:focus {
+    background-image: url(../img/search.large.active.png)
+}
+
+.jd .jd-dev .jd-dev-search-bar input + .input-label, .jd .jd-dev.jd-dev-search-bar input + .input-label, .jd.jd-dev .jd-dev-search-bar input + .input-label, .jd.jd-dev.jd-dev-search-bar input + .input-label {
+    font-size: 20px;
+    left: 50px;
+    top: 15px
+}
+
+.jd .jd-dev .jd-dev-floating-alert, .jd.jd-dev .jd-dev-floating-alert {
+    position: fixed;
+    opacity: .9;
+    left: 0;
+    bottom: 75%;
+    width: 100%;
+    z-index: 200;
+    display: block
+}
+
+.jd .jd-dev .jd-dev-floating-alert > .content, .jd.jd-dev .jd-dev-floating-alert > .content {
+    min-width: 200px;
+    max-width: 700px;
+    margin: 40px auto;
+    text-align: center
+}
+
+.jd .jd-dev .jd-dev-floating-alert > .content:after, .jd.jd-dev .jd-dev-floating-alert > .content:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.jd .jd-dev .jd-dev-floating-alert > .content > .message, .jd.jd-dev .jd-dev-floating-alert > .content > .message {
+    color: #f7f7f7;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-left: 40px;
+    width: 100%;
+    background: url(../img/alert.white.large.active.png) 0 center no-repeat;
+    line-height: 1.5
+}
+
+.jd .jd-dev .jd-dev-floating-alert.visible, .jd .jd-dev .jd-dev-hide, .jd.jd-dev .jd-dev-floating-alert.visible, .jd.jd-dev .jd-dev-hide {
+    display: block
+}
+
+.jd .jd-dev .jd-dev-floating-alert.error, .jd.jd-dev .jd-dev-floating-alert.error {
+    background-color: #bd2e28
+}
+
+.jd .jd-dev .jd-dev-floating-alert.success, .jd.jd-dev .jd-dev-floating-alert.success {
+    background-color: #367c2b
+}
+
+.jd .jd-dev .simple-mobile, .jd.jd-dev .simple-mobile {
+    background-color: #fff
+}
+
+.jd .jd-dev .simple-mobile .header-title, .jd .jd-dev .simple-mobile .mobile-wrapper, .jd.jd-dev .simple-mobile .header-title, .jd.jd-dev .simple-mobile .mobile-wrapper {
+    max-width: 400px;
+    min-width: 200px;
+    margin: 0 auto
+}
+
+.jd .jd-dev .simple-mobile .mobile-wrapper, .jd.jd-dev .simple-mobile .mobile-wrapper {
+    padding: 20px 20px 40px
+}
+
+.jd .jd-dev .simple-mobile .header, .jd.jd-dev .simple-mobile .header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    background-color: #367c2b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    min-width: inherit
+}
+
+.jd .jd-dev .simple-mobile .h3, .jd .jd-dev .simple-mobile h3, .jd.jd-dev .simple-mobile .h3, .jd.jd-dev .simple-mobile h3 {
+    line-height: 150%;
+    margin-bottom: 20px
+}
+
+.jd .jd-dev .simple-mobile .input-box, .jd.jd-dev .simple-mobile .input-box {
+    margin-bottom: 20px
+}
+
+.jd .jd-dev .simple-mobile .input-box label, .jd.jd-dev .simple-mobile .input-box label {
+    font-size: 18px;
+    font-weight: 400;
+    color: #888
+}
+
+.jd .jd-dev .simple-mobile .input-box.gapped, .jd.jd-dev .simple-mobile .input-box.gapped {
+    margin-bottom: 35px
+}
+
+.jd .jd-dev .simple-mobile .input-label, .jd.jd-dev .simple-mobile .input-label {
+    font-size: 22px;
+    top: 11px
+}
+
+.jd .jd-dev .simple-mobile input[type=password], .jd .jd-dev .simple-mobile input[type=text], .jd .jd-dev .simple-mobile select, .jd .jd-dev .simple-mobile textarea, .jd.jd-dev .simple-mobile input[type=password], .jd.jd-dev .simple-mobile input[type=text], .jd.jd-dev .simple-mobile select, .jd.jd-dev .simple-mobile textarea {
+    height: 45px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px
+}
+
+.jd .jd-dev .simple-mobile textarea, .jd.jd-dev .simple-mobile textarea {
+    padding: 10px
+}
+
+.jd .jd-dev .simple-mobile input[type=checkbox], .jd.jd-dev .simple-mobile input[type=checkbox] {
+    height: 31px;
+    width: 31px
+}
+
+.jd .jd-dev .simple-mobile input[type=checkbox] + label, .jd.jd-dev .simple-mobile input[type=checkbox] + label {
+    background-size: cover;
+    height: 11px;
+    width: 11px
+}
+
+.jd .jd-dev .simple-mobile input[type=checkbox] + label + div.check-label, .jd.jd-dev .simple-mobile input[type=checkbox] + label + div.check-label {
+    font-size: 18px;
+    vertical-align: 9px
+}
+
+.jd .jd-dev .simple-mobile input[type=radio], .jd.jd-dev .simple-mobile input[type=radio] {
+    width: 35px;
+    height: 35px
+}
+
+.jd .jd-dev .simple-mobile input[type=radio] + label, .jd.jd-dev .simple-mobile input[type=radio] + label {
+    padding: 10px;
+    border-width: 7px;
+    border-radius: 20px
+}
+
+.jd .jd-dev .simple-mobile input[type=radio] + label + div, .jd.jd-dev .simple-mobile input[type=radio] + label + div {
+    font-size: 18px;
+    vertical-align: 11px;
+    margin-left: 9px
+}
+
+.jd .jd-dev .simple-mobile button, .jd.jd-dev .simple-mobile button {
+    border: none;
+    font-weight: 400;
+    background-shadow: none;
+    background: #e5e5e6;
+    height: 45px;
+    font-size: 20px;
+    box-shadow: none;
+    width: 100%;
+    max-width: 800px
+}
+
+.jd .jd-dev .simple-mobile button:hover, .jd.jd-dev .simple-mobile button:hover {
+    box-shadow: none;
+    background: #cbcbcd
+}
+
+.jd .jd-dev .simple-mobile button.call-to-action, .jd.jd-dev .simple-mobile button.call-to-action {
+    box-shadow: none;
+    background: #ffde00
+}
+
+.jd .jd-dev .simple-mobile button.call-to-action:hover, .jd.jd-dev .simple-mobile button.call-to-action:hover {
+    box-shadow: none;
+    background: #ccb200
+}
+
+.jd .jd-jquery-datepicker .ui-helper-hidden, .jd.jd-jquery-datepicker .ui-helper-hidden {
+    display: none
+}
+
+.jd .jd-jquery-datepicker .ui-helper-hidden-accessible, .jd.jd-jquery-datepicker .ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+
+.jd .jd-jquery-datepicker .ui-helper-reset, .jd.jd-jquery-datepicker .ui-helper-reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none
+}
+
+.jd .jd-jquery-datepicker .ui-helper-clearfix:after, .jd .jd-jquery-datepicker .ui-helper-clearfix:before, .jd.jd-jquery-datepicker .ui-helper-clearfix:after, .jd.jd-jquery-datepicker .ui-helper-clearfix:before {
+    content: "";
+    display: table;
+    border-collapse: collapse
+}
+
+.jd .jd-jquery-datepicker .ui-helper-clearfix:after, .jd.jd-jquery-datepicker .ui-helper-clearfix:after {
+    clear: both
+}
+
+.jd .jd-jquery-datepicker .ui-helper-clearfix, .jd.jd-jquery-datepicker .ui-helper-clearfix {
+    min-height: 0
+}
+
+.jd .jd-jquery-datepicker .ui-helper-zfix, .jd.jd-jquery-datepicker .ui-helper-zfix {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.jd .jd-jquery-datepicker .ui-front, .jd.jd-jquery-datepicker .ui-front {
+    z-index: 100
+}
+
+.jd .jd-jquery-datepicker .ui-state-disabled, .jd.jd-jquery-datepicker .ui-state-disabled {
+    cursor: default !important
+}
+
+.jd .jd-jquery-datepicker .ui-icon, .jd.jd-jquery-datepicker .ui-icon {
+    display: block;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat
+}
+
+.jd .jd-jquery-datepicker .input-box input.datepicker, .jd.jd-jquery-datepicker .input-box input.datepicker {
+    padding-right: 20px;
+    background: url(../img/calendar.small.inactive.png) right 8px center no-repeat
+}
+
+.jd .jd-jquery-datepicker .input-box input.datepicker:active, .jd .jd-jquery-datepicker .input-box input.datepicker:focus, .jd.jd-jquery-datepicker .input-box input.datepicker:active, .jd.jd-jquery-datepicker .input-box input.datepicker:focus {
+    background-image: url(../img/calendar.small.active.png)
+}
+
+.jd .jd-jquery-datepicker .ui-widget-overlay, .jd.jd-jquery-datepicker .ui-widget-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker, .jd.jd-jquery-datepicker .ui-datepicker {
+    padding: .2em .2em 0;
+    display: none;
+    position: absolute !important;
+    top: 57px !important;
+    left: inherit !important;
+    right: -17px !important
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev, .jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev-hover, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev-hover {
+    left: 2px
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker:before, .jd.jd-jquery-datepicker .ui-datepicker:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-left: 3em;
+    bottom: 0;
+    top: 5px;
+    right: 0;
+    box-sizing: border-box;
+    border: 1em solid #000;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(135deg);
+    box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3);
+    -moz-box-shadow: -4px 4px 13px -3px rgba(0, 0, 0, .3)
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-next, .jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-next-hover, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-next, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-next-hover {
+    right: 2px
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-header, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: .2em 0
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-next, .jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-next, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev {
+    position: absolute;
+    top: 2px;
+    width: 1.8em;
+    height: 1.8em
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-next-hover, .jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev-hover, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-next-hover, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev-hover {
+    top: 1px;
+    background: #fff !important;
+    border-color: #fff !important
+}
+
+.jd .jd-jquery-datepicker .ui-state-hover .ui-icon-circle-triangle-w, .jd.jd-jquery-datepicker .ui-state-hover .ui-icon-circle-triangle-w {
+    background-image: url(../img/chevron.left.gray.small.active.png) !important
+}
+
+.jd .jd-jquery-datepicker .ui-state-hover .ui-icon-circle-triangle-e, .jd.jd-jquery-datepicker .ui-state-hover .ui-icon-circle-triangle-e {
+    background-image: url(../img/chevron.right.gray.small.active.png) !important
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-next span, .jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev span, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-next span, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-prev span {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    top: 50%;
+    margin-top: -8px
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-title, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-title {
+    margin: 0 2.3em;
+    line-height: 1.8em;
+    text-align: center
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-title span, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-title span {
+    font-weight: 700
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-title select, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-title select {
+    font-size: 1em;
+    margin: 1px 2px;
+    height: 23px;
+    line-height: 22px
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker select.ui-datepicker-month, .jd .jd-jquery-datepicker .ui-datepicker select.ui-datepicker-year, .jd.jd-jquery-datepicker .ui-datepicker select.ui-datepicker-month, .jd.jd-jquery-datepicker .ui-datepicker select.ui-datepicker-year {
+    width: 45%
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker table, .jd.jd-jquery-datepicker .ui-datepicker table {
+    width: 100%;
+    font-size: 1em;
+    border-collapse: collapse;
+    margin: 0 0 .4em
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker th, .jd.jd-jquery-datepicker .ui-datepicker th {
+    padding: 0 .3em;
+    text-align: center;
+    font-weight: 700;
+    border: 0
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker th span, .jd.jd-jquery-datepicker .ui-datepicker th span {
+    font-weight: 700
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker td, .jd.jd-jquery-datepicker .ui-datepicker td {
+    border: 0;
+    padding: 0 0 2px 2px
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker td.ui-datepicker-week-col, .jd.jd-jquery-datepicker .ui-datepicker td.ui-datepicker-week-col {
+    text-align: center;
+    font-style: italic
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker td a, .jd .jd-jquery-datepicker .ui-datepicker td span, .jd.jd-jquery-datepicker .ui-datepicker td a, .jd.jd-jquery-datepicker .ui-datepicker td span {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane {
+    background-image: none;
+    margin: 0;
+    padding: 0 .2em;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    -webikit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane button, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane button {
+    float: right;
+    margin: .5em .2em .4em;
+    cursor: pointer;
+    padding: .2em .6em .3em;
+    width: auto;
+    overflow: visible
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current, .jd .jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group, .jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane button, .jd.jd-jquery-datepicker .ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current, .jd.jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane button {
+    float: left
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker.ui-datepicker-multi, .jd.jd-jquery-datepicker .ui-datepicker.ui-datepicker-multi {
+    width: auto
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group table, .jd.jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group table {
+    width: 95%;
+    margin: 0 auto .4em
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi-2 .ui-datepicker-group, .jd.jd-jquery-datepicker .ui-datepicker-multi-2 .ui-datepicker-group {
+    width: 50%
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi-3 .ui-datepicker-group, .jd.jd-jquery-datepicker .ui-datepicker-multi-3 .ui-datepicker-group {
+    width: 33.3%
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi-4 .ui-datepicker-group, .jd.jd-jquery-datepicker .ui-datepicker-multi-4 .ui-datepicker-group {
+    width: 25%
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header, .jd .jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header, .jd.jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header, .jd.jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header {
+    border-left-width: 0
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-buttonpane, .jd.jd-jquery-datepicker .ui-datepicker-multi .ui-datepicker-buttonpane {
+    clear: left
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-row-break, .jd.jd-jquery-datepicker .ui-datepicker-row-break {
+    clear: both;
+    width: 100%;
+    font-size: 0
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl, .jd.jd-jquery-datepicker .ui-datepicker-rtl {
+    direction: rtl
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-prev, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-prev {
+    right: 2px;
+    left: auto
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-next, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-next {
+    left: 2px;
+    right: auto
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-prev:hover, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-prev:hover {
+    right: 2px;
+    left: auto
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-next:hover, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-next:hover {
+    left: 2px;
+    right: auto
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane {
+    clear: right
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current, .jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group {
+    float: right
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header, .jd .jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header, .jd.jd-jquery-datepicker .ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header {
+    border-right-width: 0;
+    border-left-width: 1px
+}
+
+.jd .jd-jquery-datepicker .ui-icon-circle-triangle-e, .jd.jd-jquery-datepicker .ui-icon-circle-triangle-e {
+    background: url(../img/chevron.right.gray.small.inactive.png) center center no-repeat !important
+}
+
+.jd .jd-jquery-datepicker .ui-icon-circle-triangle-w, .jd.jd-jquery-datepicker .ui-icon-circle-triangle-w {
+    background: url(../img/chevron.left.gray.small.inactive.png) center center no-repeat !important
+}
+
+.jd .jd-jquery-datepicker .ui-widget, .jd.jd-jquery-datepicker .ui-widget {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    z-index: 200 !important;
+    opacity: 1 !important
+}
+
+.jd .jd-jquery-datepicker .ui-widget .ui-widget, .jd.jd-jquery-datepicker .ui-widget .ui-widget {
+    font-size: 1em
+}
+
+.jd .jd-jquery-datepicker .ui-widget button, .jd .jd-jquery-datepicker .ui-widget input, .jd .jd-jquery-datepicker .ui-widget select, .jd .jd-jquery-datepicker .ui-widget textarea, .jd.jd-jquery-datepicker .ui-widget button, .jd.jd-jquery-datepicker .ui-widget input, .jd.jd-jquery-datepicker .ui-widget select, .jd.jd-jquery-datepicker .ui-widget textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em
+}
+
+.jd .jd-jquery-datepicker .ui-widget-content, .jd.jd-jquery-datepicker .ui-widget-content {
+    box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 13px 4px rgba(0, 0, 0, .3);
+    background: #fff;
+    color: #333
+}
+
+.jd .jd-jquery-datepicker .ui-widget-content a, .jd.jd-jquery-datepicker .ui-widget-content a {
+    color: #333
+}
+
+.jd .jd-jquery-datepicker .ui-widget-header, .jd.jd-jquery-datepicker .ui-widget-header {
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+    font-weight: 700
+}
+
+.jd .jd-jquery-datepicker .ui-widget-header a, .jd.jd-jquery-datepicker .ui-widget-header a {
+    color: #000
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-state-default, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-default, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-default, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-state-default, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-default, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-default {
+    border: 1px solid #fff;
+    background: #fff;
+    font-weight: 400;
+    color: #333
+}
+
+.jd .jd-jquery-datepicker .ui-state-default a, .jd .jd-jquery-datepicker .ui-state-default a:link, .jd .jd-jquery-datepicker .ui-state-default a:visited, .jd.jd-jquery-datepicker .ui-state-default a, .jd.jd-jquery-datepicker .ui-state-default a:link, .jd.jd-jquery-datepicker .ui-state-default a:visited {
+    color: #333;
+    text-decoration: none
+}
+
+.jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-state-focus, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-state-hover, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-focus, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-hover, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-focus, .jd .jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-hover, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-state-focus, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-state-hover, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-focus, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-content .ui-state-hover, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-focus, .jd.jd-jquery-datepicker .ui-datepicker-calendar .ui-widget-header .ui-state-hover {
+    border: 1px solid #f1f1f1;
+    background: #f1f1f1;
+    font-weight: 400;
+    color: #333
+}
+
+.jd .jd-jquery-datepicker .ui-state-focus a, .jd .jd-jquery-datepicker .ui-state-focus a:hover, .jd .jd-jquery-datepicker .ui-state-focus a:link, .jd .jd-jquery-datepicker .ui-state-focus a:visited, .jd .jd-jquery-datepicker .ui-state-hover a, .jd .jd-jquery-datepicker .ui-state-hover a:hover, .jd .jd-jquery-datepicker .ui-state-hover a:link, .jd .jd-jquery-datepicker .ui-state-hover a:visited, .jd.jd-jquery-datepicker .ui-state-focus a, .jd.jd-jquery-datepicker .ui-state-focus a:hover, .jd.jd-jquery-datepicker .ui-state-focus a:link, .jd.jd-jquery-datepicker .ui-state-focus a:visited, .jd.jd-jquery-datepicker .ui-state-hover a, .jd.jd-jquery-datepicker .ui-state-hover a:hover, .jd.jd-jquery-datepicker .ui-state-hover a:link, .jd.jd-jquery-datepicker .ui-state-hover a:visited {
+    color: #333;
+    text-decoration: none
+}
+
+.jd .jd-jquery-datepicker .ui-state-active, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-active, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-active, .jd.jd-jquery-datepicker .ui-state-active, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-active, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-active {
+    border: 1px solid #888;
+    background: #fff;
+    font-weight: 400;
+    color: #333
+}
+
+.jd .jd-jquery-datepicker .ui-state-active a, .jd .jd-jquery-datepicker .ui-state-active a:link, .jd .jd-jquery-datepicker .ui-state-active a:visited, .jd.jd-jquery-datepicker .ui-state-active a, .jd.jd-jquery-datepicker .ui-state-active a:link, .jd.jd-jquery-datepicker .ui-state-active a:visited {
+    color: #333;
+    text-decoration: none
+}
+
+.jd .jd-jquery-datepicker .ui-state-highlight, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-highlight, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-highlight, .jd.jd-jquery-datepicker .ui-state-highlight, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-highlight, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-highlight {
+    border: 1px solid #444;
+    background: #444;
+    color: #fff
+}
+
+.jd .jd-jquery-datepicker .ui-state-highlight a, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-highlight a, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-highlight a, .jd.jd-jquery-datepicker .ui-state-highlight a, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-highlight a, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-highlight a {
+    color: #fff
+}
+
+.jd .jd-jquery-datepicker .ui-state-error, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-error, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-error, .jd.jd-jquery-datepicker .ui-state-error, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-error, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-error {
+    border: 1px solid #BD2E28;
+    background: #fee;
+    color: #454545
+}
+
+.black-yellow .nav-top > .container > ul > li.selected > a, .black-yellow .nav-top > .wrapper-container > ul > li.selected > a, .black-yellow .nav-top > .wrapperContainer > ul > li.selected > a, .black-yellow .tabs ul li.selected a, .black-yellow table.jd-table.modern-white-table th.active {
+    border-bottom-color: #000
+}
+
+.black-yellow .dn-list > .dn-active.dn-terminal > .dn-title, .black-yellow .dn-list > .dn-active.dn-terminal > .dn-title:hover, .black-yellow .nav-left.flat li.selected a, .black-yellow .nav-left.flat li.selected-parent a, .black-yellow .nav-left.flat li.selected-parent ul li.selected a {
+    border-left-color: #000
+}
+
+.jd .jd-jquery-datepicker .ui-state-error a, .jd .jd-jquery-datepicker .ui-state-error-text, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-error a, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-error-text, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-error a, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-error-text, .jd.jd-jquery-datepicker .ui-state-error a, .jd.jd-jquery-datepicker .ui-state-error-text, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-error a, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-error-text, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-error a, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-error-text {
+    color: #454545
+}
+
+.jd .jd-jquery-datepicker .ui-priority-primary, .jd .jd-jquery-datepicker .ui-widget-content .ui-priority-primary, .jd .jd-jquery-datepicker .ui-widget-header .ui-priority-primary, .jd.jd-jquery-datepicker .ui-priority-primary, .jd.jd-jquery-datepicker .ui-widget-content .ui-priority-primary, .jd.jd-jquery-datepicker .ui-widget-header .ui-priority-primary {
+    font-weight: 700
+}
+
+.jd .jd-jquery-datepicker .ui-state-disabled, .jd .jd-jquery-datepicker .ui-widget-content .ui-state-disabled, .jd .jd-jquery-datepicker .ui-widget-header .ui-state-disabled, .jd.jd-jquery-datepicker .ui-state-disabled, .jd.jd-jquery-datepicker .ui-widget-content .ui-state-disabled, .jd.jd-jquery-datepicker .ui-widget-header .ui-state-disabled {
+    opacity: .35;
+    filter: alpha(opacity=35);
+    background-image: none
+}
+
+.jd .jd-jquery-datepicker .ui-state-disabled .ui-icon, .jd.jd-jquery-datepicker .ui-state-disabled .ui-icon {
+    filter: alpha(opacity=35)
+}
+
+.jd .jd-jquery-datepicker .ui-icon, .jd.jd-jquery-datepicker .ui-icon {
+    width: 16px;
+    height: 16px
+}
+
+.jd .jd-jquery-datepicker .ui-corner-all, .jd .jd-jquery-datepicker .ui-corner-left, .jd .jd-jquery-datepicker .ui-corner-tl, .jd .jd-jquery-datepicker .ui-corner-top, .jd.jd-jquery-datepicker .ui-corner-all, .jd.jd-jquery-datepicker .ui-corner-left, .jd.jd-jquery-datepicker .ui-corner-tl, .jd.jd-jquery-datepicker .ui-corner-top {
+    border-top-left-radius: 5px
+}
+
+.jd .jd-jquery-datepicker .ui-corner-all, .jd .jd-jquery-datepicker .ui-corner-right, .jd .jd-jquery-datepicker .ui-corner-top, .jd .jd-jquery-datepicker .ui-corner-tr, .jd.jd-jquery-datepicker .ui-corner-all, .jd.jd-jquery-datepicker .ui-corner-right, .jd.jd-jquery-datepicker .ui-corner-top, .jd.jd-jquery-datepicker .ui-corner-tr {
+    border-top-right-radius: 5px
+}
+
+.jd .jd-jquery-datepicker .ui-corner-all, .jd .jd-jquery-datepicker .ui-corner-bl, .jd .jd-jquery-datepicker .ui-corner-bottom, .jd .jd-jquery-datepicker .ui-corner-left, .jd.jd-jquery-datepicker .ui-corner-all, .jd.jd-jquery-datepicker .ui-corner-bl, .jd.jd-jquery-datepicker .ui-corner-bottom, .jd.jd-jquery-datepicker .ui-corner-left {
+    border-bottom-left-radius: 5px
+}
+
+.jd .jd-jquery-datepicker .ui-corner-all, .jd .jd-jquery-datepicker .ui-corner-bottom, .jd .jd-jquery-datepicker .ui-corner-br, .jd .jd-jquery-datepicker .ui-corner-right, .jd.jd-jquery-datepicker .ui-corner-all, .jd.jd-jquery-datepicker .ui-corner-bottom, .jd.jd-jquery-datepicker .ui-corner-br, .jd.jd-jquery-datepicker .ui-corner-right {
+    border-bottom-right-radius: 5px
+}
+
+.jd .jd-jquery-datepicker .ui-widget-overlay, .jd.jd-jquery-datepicker .ui-widget-overlay {
+    background: #777;
+    opacity: .3;
+    filter: alpha(opacity=30)
+}
+
+.jd .jd-jquery-datepicker .ui-widget-shadow, .jd.jd-jquery-datepicker .ui-widget-shadow {
+    margin: 0;
+    padding: 5px;
+    background: #8a8a8a;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    border-radius: 8px
+}
+
+.black-yellow a, .black-yellow a:active, .black-yellow a:link, .black-yellow a:visited {
+    color: #000;
+    text-decoration: underline
+}
+
+.black-yellow a:hover {
+    text-decoration: underline
+}
+
+.black-yellow table.jd-table.modern-white-table th a, .black-yellow table.jd-table.traditional-table th a {
+    text-decoration: none
+}
+
+.black-yellow .h1, .black-yellow .header h1 a, .black-yellow h1 {
+    color: #000
+}
+
+.black-yellow .header .logo {
+    background-image: url(../img/deere.logo.cf.png)
+}
+
+.black-yellow .header .user-info a, .black-yellow .header .user-info > span {
+    color: #000;
+    text-decoration: none
+}
+
+.black-yellow .header .dropdown-container.user-info-style .dropdown .user-name {
+    color: #000
+}
+
+.black-yellow .header .dropdown-container.user-info-style .dropdown:after {
+    content: url(../img/userinfo.dropdown.inactive.png)
+}
+
+.black-yellow .header .dropdown-container.user-info-style.opened .dropdown:after {
+    content: url(../img/userinfo.dropdown.active.png)
+}
+
+.black-yellow .header .brandbar-top {
+    background: -moz-linear-gradient(left, #fee25b 0, #ffde00 48%, #edae2d 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #fee25b), color-stop(48%, #ffde00), color-stop(100%, #edae2d));
+    background: -webkit-linear-gradient(left, #fee25b 0, #ffde00 48%, #edae2d 100%);
+    background: -o-linear-gradient(left, #fee25b 0, #ffde00 48%, #edae2d 100%);
+    background: -ms-linear-gradient(left, #fee25b 0, #ffde00 48%, #edae2d 100%);
+    background: linear-gradient(to left, #fee25b 0, #ffde00 48%, #edae2d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fee25b', endColorstr='#edae2d', GradientType=1);
+    height: 15px
+}
+
+.black-yellow .header .brandbar-bottom {
+    background: #000;
+    filter: none;
+    height: 5px
+}
+
+.black-yellow .nav-top .alert.active .alert-count, .black-yellow .nav-top .cart .cart-icon.inner-quantity, .black-yellow .nav-top .cart .cart-label .amnt, .black-yellow .nav-top ul li.has-sub-menu ul li a {
+    color: #000
+}
+
+.black-yellow .nav-top .alert.active .alert-icon {
+    background-image: url(../img/notification.large.active.png)
+}
+
+.black-yellow .tabs ul li a {
+    color: #000
+}
+
+.black-yellow table.jd-table.traditional-table th.active {
+    background-color: #000
+}
+
+.black-yellow table.jd-table.modern-white-table tr:hover, .black-yellow table.jd-table.traditional-table tr:hover {
+    background-color: #f1f1f1
+}
+
+.black-yellow table.jd-table.modern-white-table th.active a.sort-up, .black-yellow table.jd-table.modern-white-table th.active a.sortUp {
+    background-image: url(../img/sort.up.black.png)
+}
+
+.black-yellow table.jd-table.modern-white-table th.active a.sort-down, .black-yellow table.jd-table.modern-white-table th.active a.sortDown {
+    background-image: url(../img/sort.down.black.png)
+}
+
+.black-yellow .dataTables_wrapper table.dataTable thead .sorting_asc, .black-yellow .dataTables_wrapper table.dataTable thead .sorting_desc {
+    background-color: #000
+}
+
+.black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover.selected > .sorting_1, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover.selected > .sorting_2, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover.selected > .sorting_3, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover > .sorting_1, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover > .sorting_2, .black-yellow .dataTables_wrapper table.dataTable.display tbody tr:hover > .sorting_3, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_1, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_2, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_3, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover > .sorting_1, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover > .sorting_2, .black-yellow .dataTables_wrapper table.dataTable.order-column.hover tbody tr:hover > .sorting_3 {
+    background-color: #f1f1f1
+}
+
+.black-yellow .dataTables_wrapper .dataTables_paginate a.paginate_button {
+    color: #000
+}
+
+.black-yellow .dataTables_wrapper .dataTables_paginate a.paginate_button.current, .black-yellow .dataTables_wrapper .dataTables_paginate a.paginate_button.current:hover {
+    border-bottom: 2px solid #000
+}
+
+.black-yellow input[type=password]:focus, .black-yellow input[type=text]:focus, .black-yellow input[type=checkbox] + label:hover, .black-yellow input[type=checkbox]:hover + label, .black-yellow select:focus, .black-yellow textarea:focus {
+    border-color: #000
+}
+
+.black-yellow .footer a {
+    color: #fff
+}
+
+.black-yellow input[type=radio]:checked + label {
+    background-color: #000
+}
+
+.black-yellow input[type=checkbox]:checked + label {
+    background-image: url(../img/checkbox.active.cf.png)
+}
+
+.black-yellow input[type=radio]:hover + label {
+    box-shadow: 0 0 0 1px #000
+}
+
+.black-yellow .dn-top > .dn-title {
+    color: #000
+}
+
+.black-yellow .login .login-header {
+    background-image: url(../img/deere.logo.cf.hq.png)
+}
+
+.black-yellow .dropdown-container.theme-switcher-style .dropdown:before {
+    content: "Black/Yellow";
+    color: #000
+}
+
+.black-yellow .dropdown-container.theme-switcher-style .dropdown:after {
+    content: url(../img/userinfo.dropdown.inactive.png)
+}
+
+.black-yellow .dropdown-container.theme-switcher-style.opened .dropdown:after {
+    content: url(../img/userinfo.dropdown.active.png)
+}
+
+.black-yellow .dropdown-container.theme-switcher-style .dropdown-menu li.green-yellow-selector {
+    border-left-color: transparent;
+    background-color: initial
+}
+
+.black-yellow .dropdown-container.theme-switcher-style .dropdown-menu li.black-yellow-selector {
+    border-left-color: #000;
+    background-color: #f4f4f4
+}
+
+.black-yellow a .panel.count-panel .count, .black-yellow a.panel.count-panel .count {
+    color: #000;
+    text-decoration: underline
+}
+
+.black-yellow ul.breadcrumb li {
+    background-image: url(../img/chevron.right.gray.xs.active.png)
+}
+
+.black-yellow ul.breadcrumb li a {
+    color: #000
+}
+
+.black-yellow .pagination.traditional ul li.selected a {
+    border-bottom-color: #000
+}
+
+.black-yellow .button.invis, .black-yellow button.invis {
+    color: #000
+}
+
+.black-yellow .dropdown-container.button-style .button.invis:after, .black-yellow .dropdown-container.button-style button.invis:after {
+    content: url(../img/userinfo.dropdown.inactive.png)
+}
+
+.black-yellow .dropdown-container.button-style.opened .button.invis:after, .black-yellow .dropdown-container.button-style.opened button.invis:after {
+    content: url(../img/userinfo.dropdown.active.png)
+}
+
+.black-yellow pre.prettyprint .atv {
+    color: #998500
+}
+
+.black-yellow code {
+    color: #000;
+    background: #e6e6e6
+}
+
+.site-style body {
+    background: #fff
+}
+
+.site-style .nav-top {
+    background: #f1f1f1
+}
+
+.site-style .nav-top .search .input-box input[type=text], .site-style .panel, .site-style div.page-show {
+    background-color: #fff
+}
+
+.site-style .panel {
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .24);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .24);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .24)
+}
+
+.site-style .nav-left {
+    box-shadow: 0 0 3px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .24)
+}
+
+.site-style .footer {
+    background: #f1f1f1;
+    color: #333
+}
+
+.site-style .footer a {
+    color: #333
+}
+
+.site-style .error-page {
+    background-image: url(../img/alert.gray.xlarge.active.png)
+}

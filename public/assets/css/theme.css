@@ -1,0 +1,451 @@
+/*** BEGIN deere.ux.web.core.css code ***/
+/*** These are general styles ***/
+
+@font-face{
+	font-family: 'JohnDeereSans.Medium';
+	src: url('../font/JohnDeereSans.Medium.eot'); /* IE9 Compat Modes */
+	src: url('../font/JohnDeereSans.Medium.eot?#iefix') format('embedded-opentype'),
+         url('../font/JohnDeereSans.Medium.woff') format('woff'),
+		 url('../font/JohnDeereSans.Medium.svg#webfont') format('svg');
+ 
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	font-size:12px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#454545;
+	margin:0;
+	padding:0;
+}
+
+a { cursor:pointer }
+
+a, a:link, a:visited, a:active{
+	color:#333; text-decoration:underline;
+	border:none;
+	outline:none;
+}     
+
+a:hover {
+	text-decoration: underline;
+} 
+ 
+a:active {
+	text-decoration: underline;
+}
+
+div.container,
+div.wrapperContainer{
+	position:relative;
+	margin: 0 auto;
+	max-width: 1170px;
+	min-width: 930px;
+	padding:0 15px;
+}
+h1,h2{
+	font-family:'JohnDeereSans.Medium','Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:normal;
+    font-style:normal;
+    padding-top: 20px;
+}
+
+h1{
+	font-size:34px;
+}
+
+h1 a:hover,
+h1 a:active{
+	text-decoration:none;
+}
+
+h2{
+	font-size:20px;
+}
+
+h3{
+	font-size:16px;
+}
+
+h4{
+	font-size:14px;
+}
+
+h5{
+	font-size:12px;
+}
+
+h6, p{
+	font-size:12px;
+}
+
+h3,h4,h5{
+	color:#454545;
+}
+
+.ag a, .ag a:link, .ag a:visited {
+	color:#367c2b;
+    text-decoration:none;
+}     
+
+.cf a, .cf a:link, .cf a:visited {
+	color:#000000; 
+    text-decoration:underline;
+}
+
+.clear{
+    clear:both;
+}
+
+/*** END deere.ux.web.core.css code ***/
+/*** BEGIN deere.ux.web.header.core.css code ***/
+/*** These are main header styles ***/
+
+.header *{
+	box-sizing:border-box;
+}
+
+.header{
+	box-sizing:border-box;
+	position:relative;
+	background:#ffffff;
+	padding:0;
+	margin:0;
+}
+
+.header.noTopNav{
+	margin-bottom:20px;
+}
+
+.header .wrapperContainer,
+.header .container{
+	height: 80px;
+	line-height: 80px;
+	position:relative;
+}
+
+.header .logo{
+	position:relative;
+	top:20px;
+	height:40px;
+	width:200px;
+	padding:20px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.header h1{
+	display:inline;
+	margin:20px 0px 10px 0px;
+	/*line-height:1.1;*/
+}
+
+.header h1 ~ .logo{	/* for headers with an application title */
+	position:absolute;
+	right:15px;
+}
+
+.header .brandbarTop,
+.header .brandbarBottom {
+	min-width:960px;
+}
+
+.ag div.header div.logo{
+    background-image: url("../img/logo-john-deere.png");
+}
+
+.ag div.header h1 a{
+    color:#454545;
+}
+
+.ag div.header div.userInfo>span,
+.ag div.header div.userInfo a{
+    color:#367c2b;
+    text-decoration:none;
+}
+
+.ag div.header div.userInfo>span:hover,
+.ag div.header div.userInfo a:hover{
+    text-decoration:underline;
+}
+
+.ag div.header div.brandbarTop {
+    background: #454545;
+    background:-moz-linear-gradient(left,  #454545 0%, #454545 48%, #333 100%);
+    background:-webkit-gradient(linear, left top, right top, color-stop(0%,#333333), color-stop(48%,#191919), color-stop(100%,#000));
+    background:-webkit-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+    background:-o-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+    background:-ms-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+    background: linear-gradient(to right,  #454545 0%,#454545 48%,#333 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#000',GradientType=1 );*/
+    height:15px;
+}
+
+.ag div.header div.brandbarBottom {
+    background: #eabc08;
+    background:-moz-linear-gradient(left,  #eabc08 0%, #ffde00 48%, #eabc08 100%);
+    background:-webkit-gradient(linear, left top, right top, color-stop(0%,#eabc08), color-stop(48%,#ffde00), color-stop(100%,#eabc08));
+    background:-webkit-linear-gradient(left,  #eabc08 0%,#ffde00 48%,#eabc08 100%);
+    background:-o-linear-gradient(left,  #eabc08 0%,#ffde00 48%,#eabc08 100%);
+    background:-ms-linear-gradient(left,  #eabc08 0%,#ffde00 48%,#eabc08 100%);
+    background: linear-gradient(to right,  #eabc08 0%,#ffde00 48%,#eabc08 100%);
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eabc08', endColorstr='#eabc08',GradientType=1 ); */
+    height:5px;
+}
+
+.cf div.header div.logo{
+    background-image: url("../img/deere.logo.cf.png");
+}
+
+.cf div.header h1 a{
+    color:#454545;
+    text-decoration:none;
+}
+
+.cf div.header div.userInfo>span,
+.cf div.header div.userInfo a{
+    color:#000000;
+    text-decoration:none;
+}
+
+.cf div.header div.userInfo>span:hover,
+.cf div.header div.userInfo a:hover{
+    text-decoration:underline;
+}
+
+.cf div.header div.brandbarTop {
+    background: -moz-linear-gradient(left, #fee25b 0%,#ffde00 48%,#edae2d 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fee25b), color-stop(48%,#ffde00), color-stop(100%,#edae2d));
+    background: -webkit-linear-gradient(left, #fee25b 0%,#ffde00 48%,#edae2d 100%);
+    background: -o-linear-gradient(left, #fee25b 0%,#ffde00 48%,#edae2d 100%);
+    background: -ms-linear-gradient(left, #fee25b 0%,#ffde00 48%,#edae2d 100%);
+    background: linear-gradient(left, #fee25b 0%,#ffde00 48%,#edae2d 100%);
+    /*filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee25b',endColorstr='#edae2d',GradientType=1 );*/
+    height:15px;
+}
+
+.cf div.header div.brandbarBottom {
+    background: #000000;
+    height:5px;
+}
+
+/*** END deere.ux.web.header.core.css code ***/
+/*** BEGIN deere.ux.web.header.withoutUser.css code ***/
+/*** These are styles for the header containing only the application title and logo ***/
+
+div.logo{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+.footer {
+    margin-bottom: :0px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 60px;
+    min-width: 960px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0px;
+}
+
+.footer a {
+    text-decoration:none;
+    padding: 0 4px;
+}
+.footer a:hover {
+    text-decoration:underline;
+}
+.footer a span {
+    color: #fff;
+}
+
+.footerLegal {
+    float: right;
+}
+
+.darkF .footer {
+    background-color: #333333;
+    color: #ffffff;	
+}
+
+.darkF .footer a {
+    color: #ffffff;
+}
+
+.lightF .footer {
+    background-color: #f1f1f1;
+    color: #666666;
+}
+.footer #legal  a, a:link, a:visited {
+	color: #fff;
+}
+.lightF .footer a {
+    color: #fff;
+}
+html,
+body {
+	height:100%;
+	margin:0;
+}
+
+/*.wrapperAllExceptFooter {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -110px;
+}*/
+
+.push {
+	height: 70px;
+}
+
+.push{
+	clear:both;
+}
+
+.footerLinks {
+	float: left;
+}
+ List CSS 
+a.listA, {
+	font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    font-weight:normal;
+    font-size:12px;
+    color:#333333;
+    padding: 7px;
+}
+dl, ol, ul{
+    font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+    font-weight:normal;
+    font-size:12px;
+    color:#333333;
+}
+
+dl, ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+
+ol{
+    margin-left:0;
+    padding-left:20px;
+    list-style-type:decimal;
+}
+dl dd, dl dt, ol li, ul li{
+    padding:7px;
+}
+dd{
+    margin-left:14px;
+}	
+.wrapperAllExceptFooter {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin:  0 auto -110px;
+}
+.listHeader {
+    margin-bottom: 0;
+}
+ul li{
+    background-image: url("../img/bullet.png");
+    background-repeat: no-repeat;
+    background-position:0 10px;
+    padding:5px 0px 0px 15px;
+}
+.container, div.wrapperContainer {
+    position: relative;
+    min-width: 1230px;
+    max-width: 1230px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+
+#mainContent {
+    min-width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+}
+#mainContent a {
+    color: #454545;
+}
+#mainRightContent {
+    min-width: 50%;
+    max-width: 100%;
+    margin-left: 0px;
+    float:right;
+}
+#mainRightContent a {
+    color: #454545;
+    text-decoration: underline;
+}
+.navBar {
+    width: 50%;
+    float: left;
+}
+.navBar p {
+    margin-right: 40px;
+}
+.navBar h1,h2,h3 {
+    margin-right: 50px;
+}
+.navBar a {
+    color: #454545;
+    text-decoration: underline;
+}
+
+/* Table CSS */
+
+table{
+    clear:both;
+    font-size:12px;
+    font-weight:normal;
+    color:#333333;
+    border-collapse:collapse;
+    width:100%;
+}
+tr:nth-child(even) {
+    background-color:#ccc;
+}
+th {
+    /*margin-bottom: 20px;*/
+    padding-bottom: 20px;
+}
+thead{
+    background-color: #454545;
+    color: #fff;
+}
+td, th{
+    text-align:left;
+}
+
+td.numberCell, th.numberCell{
+    text-align:right;
+}
+
+td, th{
+    padding:10px 15px;
+}
+
+td p{
+    margin:0;
+}
+
+hr { 
+border: 0;
+margin-top: 15px;
+margin-bottom: 5px;
+height: 2px;
+background:-moz-linear-gradient(left,  #454545 0%, #454545 48%, #333 100%);
+background:-webkit-gradient(linear, left top, right top, color-stop(0%,#333333), color-stop(48%,#191919), color-stop(100%,#000));
+background:-webkit-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+background:-o-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+background:-ms-linear-gradient(left,  #454545 0%,#454545 48%,#333 100%);
+background: linear-gradient(to right,  #454545 0%,#454545 48%,#333 100%);
+}
